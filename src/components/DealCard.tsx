@@ -15,6 +15,7 @@ interface Deal {
 }
 
 const typeColors: Record<string, { bg: string; text: string }> = {
+  "weekly-flyer": { bg: "bg-green-100", text: "text-green-800" },
   "weekly-sale": { bg: "bg-green-100", text: "text-green-800" },
   "everyday-low": { bg: "bg-blue-100", text: "text-blue-800" },
   coupon: { bg: "bg-purple-100", text: "text-purple-800" },
@@ -22,7 +23,8 @@ const typeColors: Record<string, { bg: string; text: string }> = {
 };
 
 const typeLabels: Record<string, string> = {
-  "weekly-sale": "Weekly Sale",
+  "weekly-flyer": "Weekly Flyer",
+  "weekly-sale": "Weekly Flyer",
   "everyday-low": "Everyday Low",
   coupon: "Coupon",
   "meal-deal": "Meal Deal",
@@ -35,7 +37,7 @@ interface DealCardProps {
 }
 
 export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProps) {
-  const colors = typeColors[deal.type] || typeColors["weekly-sale"];
+  const colors = typeColors[deal.type] || typeColors["weekly-flyer"];
   const savings =
     deal.originalPrice && deal.originalPrice > deal.price
       ? ((1 - deal.price / deal.originalPrice) * 100).toFixed(0)
@@ -60,7 +62,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
           <h3 className="font-semibold text-lg">{deal.title}</h3>
           {isLowestPrice && (
             <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-[var(--ps-green)] bg-green-50 border border-green-200 rounded px-1.5 py-0.5 mt-1">
-              Lowest Price
+              Best Price in BK
             </span>
           )}
           {deal.description && (
@@ -75,7 +77,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
           ) : avgPrice && avgPrice > deal.price ? (
             <div className="text-sm text-gray-400">
               <span className="line-through">${avgPrice.toFixed(2)}</span>
-              <span className="text-[10px] block text-gray-400">avg price</span>
+              <span className="text-[10px] block text-gray-400">avg across stores</span>
             </div>
           ) : null}
           <div className="text-2xl font-bold text-[var(--ps-green)]">
@@ -88,7 +90,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
             </div>
           ) : avgSavings ? (
             <div className="text-xs font-bold text-white bg-[var(--ps-green)] rounded-full px-2 py-0.5 mt-1 inline-block">
-              {avgSavings}% below avg
+              {avgSavings}% cheaper than avg
             </div>
           ) : null}
         </div>
@@ -105,7 +107,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
           ))}
         </div>
         <span className="text-xs text-gray-400">
-          Valid thru {new Date(deal.validTo).toLocaleDateString()}
+          From store flyer &middot; Valid thru {new Date(deal.validTo).toLocaleDateString()}
         </span>
       </div>
     </div>

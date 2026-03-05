@@ -26,7 +26,8 @@ export default function SearchFilter({
   onSortChange,
 }: SearchFilterProps) {
   const typeLabels: Record<string, string> = {
-    "weekly-sale": "Weekly Sale",
+    "weekly-flyer": "Weekly Flyer",
+    "weekly-sale": "Weekly Flyer",
     "everyday-low": "Everyday Low",
     coupon: "Coupon",
     "meal-deal": "Meal Deal",
@@ -90,7 +91,7 @@ export default function SearchFilter({
         >
           <option value="price-low">Price: Low to High</option>
           <option value="price-high">Price: High to Low</option>
-          <option value="savings">Biggest Savings</option>
+          <option value="savings">Best Value</option>
           <option value="name">Name A-Z</option>
         </select>
       </div>

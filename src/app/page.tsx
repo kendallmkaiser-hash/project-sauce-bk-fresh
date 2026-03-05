@@ -61,7 +61,7 @@ export default function Home() {
       {/* Top Deals */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-bold">This Week&apos;s Top Deals</h2>
+          <h2 className="text-2xl font-bold">This Week&apos;s Best Prices</h2>
           <Link
             href="/deals"
             className="text-[var(--ps-green)] font-medium hover:underline"
