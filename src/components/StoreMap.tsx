@@ -39,12 +39,16 @@ interface StoreMapProps {
   stores: Store[];
   selectedStore?: string | null;
   onStoreSelect?: (storeId: string) => void;
+  height?: string;
+  scrollZoom?: boolean;
 }
 
 export default function StoreMap({
   stores,
   selectedStore,
   onStoreSelect,
+  height = "500px",
+  scrollZoom = true,
 }: StoreMapProps) {
   const [mounted, setMounted] = useState(false);
 
@@ -54,7 +58,7 @@ export default function StoreMap({
 
   if (!mounted) {
     return (
-      <div className="w-full h-[500px] bg-gray-100 rounded-xl flex items-center justify-center">
+      <div className="w-full bg-gray-100 rounded-xl flex items-center justify-center" style={{ height }}>
         <p className="text-gray-500">Loading map...</p>
       </div>
     );
@@ -63,11 +67,11 @@ export default function StoreMap({
   const center: [number, number] = [40.6892, -73.9816];
 
   return (
-    <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-lg">
+    <div className="w-full rounded-xl overflow-hidden shadow-lg" style={{ height }}>
       <MapContainer
         center={center}
         zoom={14}
-        scrollWheelZoom={true}
+        scrollWheelZoom={scrollZoom}
         style={{ height: "100%", width: "100%" }}
       >
         <TileLayer

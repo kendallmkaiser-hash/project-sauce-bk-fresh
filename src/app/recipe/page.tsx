@@ -277,9 +277,7 @@ export default function RecipePage() {
           {recommendedStores.length > 0 && (
             <div>
               <h3 className="font-bold mb-3">Recommended Stores</h3>
-              <div className="h-[300px]">
-                <StoreMap stores={recommendedStores} />
-              </div>
+              <StoreMap stores={recommendedStores} height="300px" scrollZoom={false} />
             </div>
           )}
         </div>
