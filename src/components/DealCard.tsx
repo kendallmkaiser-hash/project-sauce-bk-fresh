@@ -17,16 +17,18 @@ interface Deal {
 const typeColors: Record<string, { bg: string; text: string }> = {
   "weekly-flyer": { bg: "bg-red-50", text: "text-[var(--ps-red)]" },
   "weekly-sale": { bg: "bg-red-50", text: "text-[var(--ps-red)]" },
+  "daily-deal": { bg: "bg-orange-100", text: "text-orange-800" },
   "everyday-low": { bg: "bg-amber-50", text: "text-amber-800" },
   coupon: { bg: "bg-purple-100", text: "text-purple-800" },
-  "meal-deal": { bg: "bg-orange-100", text: "text-orange-800" },
+  "meal-deal": { bg: "bg-emerald-100", text: "text-emerald-800" },
 };
 
 const typeLabels: Record<string, string> = {
   "weekly-flyer": "Weekly Flyer",
   "weekly-sale": "Weekly Flyer",
+  "daily-deal": "Daily Deal",
   "everyday-low": "Everyday Low",
-  coupon: "Coupon",
+  coupon: "Digital Coupon",
   "meal-deal": "Meal Deal",
 };
 
@@ -107,7 +109,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
           ))}
         </div>
         <span className="text-xs text-gray-400">
-          From store flyer &middot; Valid thru {new Date(deal.validTo).toLocaleDateString()}
+          Valid thru {new Date(deal.validTo).toLocaleDateString()}
         </span>
       </div>
     </div>

@@ -1,9 +1,9 @@
-name: Weekly Deal Scrape
+name: Daily Deal Scrape
 
 on:
   schedule:
-    # Runs every Monday at 8am UTC (3am EST) to catch new weekly circulars
-    - cron: "0 8 * * 1"
+    # Runs every day at 7am UTC (2am EST) to catch fresh deals
+    - cron: "0 7 * * *"
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/deals.json
-          git diff --staged --quiet || git commit -m "Update weekly deals [automated]"
+          git diff --staged --quiet || git commit -m "Update daily deals [automated]"
           git push

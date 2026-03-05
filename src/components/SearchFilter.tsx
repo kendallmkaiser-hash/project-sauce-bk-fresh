@@ -28,8 +28,9 @@ export default function SearchFilter({
   const typeLabels: Record<string, string> = {
     "weekly-flyer": "Weekly Flyer",
     "weekly-sale": "Weekly Flyer",
+    "daily-deal": "Daily Deal",
     "everyday-low": "Everyday Low",
-    coupon: "Coupon",
+    coupon: "Digital Coupon",
     "meal-deal": "Meal Deal",
   };
 
