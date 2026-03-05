@@ -14,6 +14,24 @@ export default function DealsPage() {
   const categories = [...new Set(deals.map((d) => d.category))];
   const types = [...new Set(deals.map((d) => d.type))];
 
+  // Compute price stats per category for comparison
+  const categoryStats = useMemo(() => {
+    const stats: Record<string, { min: number; avg: number; minId: string }> = {};
+    const groups: Record<string, { prices: number[]; ids: string[] }> = {};
+    deals.forEach((deal) => {
+      if (!groups[deal.category]) groups[deal.category] = { prices: [], ids: [] };
+      groups[deal.category].prices.push(deal.price);
+      groups[deal.category].ids.push(deal.id);
+    });
+    for (const [cat, group] of Object.entries(groups)) {
+      const min = Math.min(...group.prices);
+      const avg = group.prices.reduce((a, b) => a + b, 0) / group.prices.length;
+      const minIdx = group.prices.indexOf(min);
+      stats[cat] = { min, avg, minId: group.ids[minIdx] };
+    }
+    return stats;
+  }, []);
+
   const filteredDeals = useMemo(() => {
     let result = deals.filter((deal) => {
       const query = searchQuery.toLowerCase();
@@ -36,12 +54,14 @@ export default function DealsPage() {
         case "price-high":
           return b.price - a.price;
         case "savings": {
+          const avgA = categoryStats[a.category]?.avg || a.price;
+          const avgB = categoryStats[b.category]?.avg || b.price;
           const savingsA = a.originalPrice
             ? (a.originalPrice - a.price) / a.originalPrice
-            : 0;
+            : avgA > a.price ? (avgA - a.price) / avgA : 0;
           const savingsB = b.originalPrice
             ? (b.originalPrice - b.price) / b.originalPrice
-            : 0;
+            : avgB > b.price ? (avgB - b.price) / avgB : 0;
           return savingsB - savingsA;
         }
         case "name":
@@ -95,9 +115,17 @@ export default function DealsPage() {
 
       {filteredDeals.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {filteredDeals.map((deal) => (
-            <DealCard key={deal.id} deal={deal} />
-          ))}
+          {filteredDeals.map((deal) => {
+            const stats = categoryStats[deal.category];
+            return (
+              <DealCard
+                key={deal.id}
+                deal={deal}
+                isLowestPrice={stats?.minId === deal.id}
+                avgPrice={stats?.avg && stats.avg > deal.price ? stats.avg : null}
+              />
+            );
+          })}
         </div>
       ) : (
         <div className="text-center py-16">

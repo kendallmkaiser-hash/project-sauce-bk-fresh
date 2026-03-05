@@ -145,17 +145,53 @@ function classifyDealType(item) {
   const story = (item.saleStory || "").toLowerCase();
   const pre = (item.prePriceText || "").toLowerCase();
 
-  // Has explicit savings info
   if (item.originalPrice && item.originalPrice > item.price) return "weekly-sale";
   if (story.includes("save")) return "weekly-sale";
   if (story.includes("buy") && story.includes("get")) return "coupon";
   if (story.includes("bogo") || story.includes("b1g1")) return "coupon";
   if (pre.includes("sale")) return "weekly-sale";
   if (pre.includes("coupon") || pre.includes("clip")) return "coupon";
+  if (story.includes("club card") || story.includes("loyalty")) return "coupon";
   if (story.includes("meal") || story.includes("dinner")) return "meal-deal";
 
-  // All flyer items are inherently weekly promotions
   return "weekly-sale";
+}
+
+// Try to estimate original price from sale_story (e.g. "Save 60¢", "Save $2.00")
+function estimateOriginalPrice(item) {
+  if (item.originalPrice && item.originalPrice > item.price)
+    return item.originalPrice;
+
+  const story = item.saleStory || "";
+
+  // Match "Save $X" or "Save $X.XX"
+  const dollarMatch = story.match(/save\s*\$(\d+(?:\.\d{1,2})?)/i);
+  if (dollarMatch) {
+    const savings = parseFloat(dollarMatch[1]);
+    if (savings > 0 && savings < item.price * 3) {
+      return Math.round((item.price + savings) * 100) / 100;
+    }
+  }
+
+  // Match "Save XX¢" or "Save XX cents"
+  const centMatch = story.match(/save\s*(\d+)\s*[¢c]/i);
+  if (centMatch) {
+    const savings = parseInt(centMatch[1]) / 100;
+    if (savings > 0) {
+      return Math.round((item.price + savings) * 100) / 100;
+    }
+  }
+
+  // Match "Save XX%"
+  const pctMatch = story.match(/save\s*(?:up\s*to\s*)?(\d+)\s*%/i);
+  if (pctMatch) {
+    const pct = parseInt(pctMatch[1]);
+    if (pct > 0 && pct < 90) {
+      return Math.round((item.price / (1 - pct / 100)) * 100) / 100;
+    }
+  }
+
+  return null;
 }
 
 async function scrapeDeals() {
@@ -243,10 +279,7 @@ async function scrapeDeals() {
       : item.description || "",
     price: item.price,
     unit: normalizeUnit(item.postPriceText),
-    originalPrice:
-      item.originalPrice && item.originalPrice > item.price
-        ? item.originalPrice
-        : null,
+    originalPrice: estimateOriginalPrice(item),
     category: categorizeItem(item.name, item.description),
     type: classifyDealType(item),
     validFrom: item.validFrom,

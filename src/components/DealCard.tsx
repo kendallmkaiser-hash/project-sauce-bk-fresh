@@ -28,11 +28,21 @@ const typeLabels: Record<string, string> = {
   "meal-deal": "Meal Deal",
 };
 
-export default function DealCard({ deal }: { deal: Deal }) {
+interface DealCardProps {
+  deal: Deal;
+  isLowestPrice?: boolean;
+  avgPrice?: number | null;
+}
+
+export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProps) {
   const colors = typeColors[deal.type] || typeColors["weekly-sale"];
   const savings =
     deal.originalPrice && deal.originalPrice > deal.price
       ? ((1 - deal.price / deal.originalPrice) * 100).toFixed(0)
+      : null;
+  const avgSavings =
+    avgPrice && avgPrice > deal.price
+      ? ((1 - deal.price / avgPrice) * 100).toFixed(0)
       : null;
 
   return (
@@ -48,23 +58,39 @@ export default function DealCard({ deal }: { deal: Deal }) {
             <span className="text-xs text-gray-500">{deal.storeName}</span>
           </div>
           <h3 className="font-semibold text-lg">{deal.title}</h3>
-          <p className="text-sm text-gray-600 mt-1">{deal.description}</p>
+          {isLowestPrice && (
+            <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-[var(--ps-green)] bg-green-50 border border-green-200 rounded px-1.5 py-0.5 mt-1">
+              Lowest Price
+            </span>
+          )}
+          {deal.description && (
+            <p className="text-sm text-gray-600 mt-1">{deal.description}</p>
+          )}
         </div>
         <div className="text-right ml-4 shrink-0">
+          {deal.originalPrice != null && deal.originalPrice > deal.price ? (
+            <div className="text-base text-gray-400 line-through">
+              ${Number(deal.originalPrice).toFixed(2)}
+            </div>
+          ) : avgPrice && avgPrice > deal.price ? (
+            <div className="text-sm text-gray-400">
+              <span className="line-through">${avgPrice.toFixed(2)}</span>
+              <span className="text-[10px] block text-gray-400">avg price</span>
+            </div>
+          ) : null}
           <div className="text-2xl font-bold text-[var(--ps-green)]">
             ${deal.price.toFixed(2)}
           </div>
           <div className="text-xs text-gray-500">{deal.unit}</div>
-          {deal.originalPrice && (
-            <div className="text-sm text-gray-400 line-through">
-              ${deal.originalPrice.toFixed(2)}
+          {savings ? (
+            <div className="text-xs font-bold text-white bg-[var(--ps-orange)] rounded-full px-2 py-0.5 mt-1 inline-block">
+              {savings}% OFF
             </div>
-          )}
-          {savings && (
-            <div className="text-xs font-semibold text-[var(--ps-orange)] mt-1">
-              Save {savings}%
+          ) : avgSavings ? (
+            <div className="text-xs font-bold text-white bg-[var(--ps-green)] rounded-full px-2 py-0.5 mt-1 inline-block">
+              {avgSavings}% below avg
             </div>
-          )}
+          ) : null}
         </div>
       </div>
       <div className="flex items-center justify-between mt-4 pt-3 border-t border-gray-50">

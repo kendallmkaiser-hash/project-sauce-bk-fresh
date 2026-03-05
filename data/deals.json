@@ -71,23 +71,6 @@
     "id": "deal-scraped-5",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "CHICKEN WINGS",
-    "description": "",
-    "price": 2.39,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-scraped-6",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
     "title": "PERDUE WHOLE CHICKEN",
     "description": "",
     "price": 1.59,
@@ -102,12 +85,29 @@
     ]
   },
   {
-    "id": "deal-scraped-7",
+    "id": "deal-scraped-6",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "PERDUE CHICKEN",
     "description": "",
     "price": 1.59,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "deal-scraped-7",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "CHICKEN WINGS",
+    "description": "",
+    "price": 2.39,
     "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
@@ -615,8 +615,8 @@
   },
   {
     "id": "deal-scraped-37",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "GROUND BEEF",
     "description": "",
     "price": 7.99,
@@ -632,8 +632,8 @@
   },
   {
     "id": "deal-scraped-38",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "GROUND BEEF",
     "description": "",
     "price": 7.99,
@@ -651,6 +651,23 @@
     "id": "deal-scraped-39",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
+    "title": "GROUND KOBE BEEF",
+    "description": "",
+    "price": 9.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "beef"
+    ]
+  },
+  {
+    "id": "deal-scraped-40",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "BALL PARK BEEF BEEF FRANKS 15 Oz. Pkg",
     "description": "",
     "price": 6.99,
@@ -665,7 +682,7 @@
     ]
   },
   {
-    "id": "deal-scraped-40",
+    "id": "deal-scraped-41",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "Beef Shin For Soup",
@@ -682,7 +699,7 @@
     ]
   },
   {
-    "id": "deal-scraped-41",
+    "id": "deal-scraped-42",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "WHOLE BEEF BACK RIBS",
@@ -699,7 +716,7 @@
     ]
   },
   {
-    "id": "deal-scraped-42",
+    "id": "deal-scraped-43",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "BEEF OXTAIL",
@@ -716,30 +733,13 @@
     ]
   },
   {
-    "id": "deal-scraped-43",
+    "id": "deal-scraped-44",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "WHOLE BEEF BRISKET",
     "description": "",
     "price": 8.99,
     "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-scraped-44",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "GROUND BEEF",
-    "description": "",
-    "price": 9.99,
-    "unit": "each",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-sale",
@@ -787,7 +787,7 @@
     "id": "deal-scraped-47",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "GROUND KOBE BEEF",
+    "title": "GROUND BEEF",
     "description": "",
     "price": 9.99,
     "unit": "each",
@@ -804,9 +804,9 @@
     "id": "deal-scraped-48",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "BRISKET BEEF BURGERS",
+    "title": "GROUND KOBE BEEF",
     "description": "",
-    "price": 12.99,
+    "price": 9.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -821,9 +821,9 @@
     "id": "deal-scraped-49",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "GROUND KOBE BEEF",
+    "title": "BRISKET BEEF BURGERS",
     "description": "",
-    "price": 9.99,
+    "price": 12.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -941,9 +941,9 @@
     "id": "deal-scraped-56",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
-    "title": "Sabrett Beef Cocktail Franks",
+    "title": "Sabrett All Natural Beef Franks",
     "description": "",
-    "price": 5.99,
+    "price": 6.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -958,9 +958,9 @@
     "id": "deal-scraped-57",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
-    "title": "Sabrett All Natural Beef Franks",
+    "title": "Sabrett Beef Cocktail Franks",
     "description": "",
-    "price": 6.99,
+    "price": 5.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -1059,23 +1059,6 @@
   },
   {
     "id": "deal-scraped-63",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "CENTER CUT PORK CHOPS",
-    "description": "",
-    "price": 1.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "pork"
-    ]
-  },
-  {
-    "id": "deal-scraped-64",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "PORK RIB BELLIES",
@@ -1092,7 +1075,7 @@
     ]
   },
   {
-    "id": "deal-scraped-65",
+    "id": "deal-scraped-64",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Whole Pork Tenderloin",
@@ -1109,13 +1092,30 @@
     ]
   },
   {
-    "id": "deal-scraped-66",
+    "id": "deal-scraped-65",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "WHOLE PORK BUTT",
     "description": "",
     "price": 2.69,
     "unit": "per lb",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "pork"
+    ]
+  },
+  {
+    "id": "deal-scraped-66",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "PULLED PORK",
+    "description": "",
+    "price": 9.99,
+    "unit": "each",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-sale",
@@ -1146,10 +1146,10 @@
     "id": "deal-scraped-68",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "PULLED PORK",
+    "title": "CENTER CUT PORK CHOPS",
     "description": "",
-    "price": 9.99,
-    "unit": "each",
+    "price": 1.99,
+    "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-sale",
@@ -1246,8 +1246,8 @@
   },
   {
     "id": "deal-scraped-74",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "SMITHFIELD PORK TENDERLOIN",
     "description": "",
     "price": 6.99,
@@ -1263,8 +1263,8 @@
   },
   {
     "id": "deal-scraped-75",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "SMITHFIELD PORK TENDERLOIN",
     "description": "",
     "price": 6.99,
@@ -1707,9 +1707,9 @@
     "id": "deal-scraped-101",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Buitoni Filled Pasta",
+    "title": "DeCecco Pasta or Gnocchi",
     "description": "",
-    "price": 3.99,
+    "price": 6,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1724,9 +1724,9 @@
     "id": "deal-scraped-102",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "DeCecco Pasta or Gnocchi",
+    "title": "Buitoni Filled Pasta",
     "description": "",
-    "price": 6,
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -2056,7 +2056,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -2184,176 +2184,6 @@
   },
   {
     "id": "deal-scraped-129",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "ARNOLD WHOLE GRAIN BREAD",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-130",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "ARNOLD WHOLE GRAIN BREAD",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-131",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Irish Soda Bread",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-132",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Sara Lee Bread",
-    "description": "",
-    "price": 6,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-133",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KRASDALE GIANT WHITE BREAD",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-134",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "WONDER ROUND TOP WHITE BREAD",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-135",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "WONDER ROUND TOP WHITE BREAD",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-136",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "The Bakery Authentic Sliced Panini Bread",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-137",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "SARA LEE CLASSIC HONEY WHEAT BREAD",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-138",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "SARA LEE CLASSIC HONEY WHEAT BREAD",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-scraped-139",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "Martin's Butter Bread",
@@ -2371,7 +2201,7 @@
     ]
   },
   {
-    "id": "deal-scraped-140",
+    "id": "deal-scraped-130",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "Baked Irish Soda Bread",
@@ -2388,7 +2218,7 @@
     ]
   },
   {
-    "id": "deal-scraped-141",
+    "id": "deal-scraped-131",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "1 Oz Bag Wonder Classic White Bread",
@@ -2405,7 +2235,7 @@
     ]
   },
   {
-    "id": "deal-scraped-142",
+    "id": "deal-scraped-132",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "22-24 Oz Bag Assorted Pepperidge Farm Bread",
@@ -2422,7 +2252,7 @@
     ]
   },
   {
-    "id": "deal-scraped-143",
+    "id": "deal-scraped-133",
     "storeId": "keyfood-fulton",
     "storeName": "Key Food Supermarkets",
     "title": "24 Oz Bag Assorted Arnold Country Style Bread",
@@ -2439,12 +2269,182 @@
     ]
   },
   {
-    "id": "deal-scraped-144",
+    "id": "deal-scraped-134",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "ARNOLD WHOLE GRAIN BREAD",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-135",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Irish Soda Bread",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-136",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Sara Lee Bread",
+    "description": "",
+    "price": 6,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-137",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "ARNOLD WHOLE GRAIN BREAD",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-138",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stouffer's French Bread Pizzas",
     "description": "",
     "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-139",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KRASDALE GIANT WHITE BREAD",
+    "description": "",
+    "price": 1.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-140",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "WONDER ROUND TOP WHITE BREAD",
+    "description": "",
+    "price": 2.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-141",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "WONDER ROUND TOP WHITE BREAD",
+    "description": "",
+    "price": 2.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-142",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "The Bakery Authentic Sliced Panini Bread",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-143",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "SARA LEE CLASSIC HONEY WHEAT BREAD",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-scraped-144",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "SARA LEE CLASSIC HONEY WHEAT BREAD",
+    "description": "",
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "bakery",
@@ -2534,7 +2534,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "produce",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -2566,7 +2566,7 @@
     "description": "SAVE $5 when you spend & 20 on participating products",
     "price": 7,
     "unit": "each",
-    "originalPrice": null,
+    "originalPrice": 12,
     "category": "produce",
     "type": "weekly-sale",
     "validFrom": "2026-02-27T05:00:00+00:00",
@@ -2585,7 +2585,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "produce",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -3287,40 +3287,6 @@
     "id": "deal-scraped-194",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "MALT-O-MEAL CEREAL",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cereal"
-    ]
-  },
-  {
-    "id": "deal-scraped-195",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "MALT-O-MEAL CEREAL",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cereal"
-    ]
-  },
-  {
-    "id": "deal-scraped-196",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
     "title": "CREAM OF RICE CEREAL",
     "description": "",
     "price": 3.99,
@@ -3336,12 +3302,46 @@
     ]
   },
   {
-    "id": "deal-scraped-197",
+    "id": "deal-scraped-195",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "CHEERIOS CEREAL 12 Oz. Box",
     "description": "",
     "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cereal"
+    ]
+  },
+  {
+    "id": "deal-scraped-196",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "MALT-O-MEAL CEREAL",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cereal"
+    ]
+  },
+  {
+    "id": "deal-scraped-197",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "MALT-O-MEAL CEREAL",
+    "description": "",
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -3636,7 +3636,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "produce",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -3702,7 +3702,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "produce",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -3719,7 +3719,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "canned",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": []
@@ -4031,11 +4031,11 @@
   },
   {
     "id": "deal-scraped-239",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Stop & Shop String Cheese or Snack Sticks",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "HORMEL PEPPERONI & CHEESE SNACK TRAY",
     "description": "",
-    "price": 3.49,
+    "price": 7.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4048,11 +4048,11 @@
   },
   {
     "id": "deal-scraped-240",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "HORMEL PEPPERONI & CHEESE SNACK TRAY",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Stop & Shop String Cheese or Snack Sticks",
     "description": "",
-    "price": 7.99,
+    "price": 3.49,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4091,7 +4091,7 @@
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
-    "type": "weekly-sale",
+    "type": "coupon",
     "validFrom": "2026-02-27T05:00:00+00:00",
     "validTo": "2026-03-06T04:59:59+00:00",
     "tags": [
@@ -4220,11 +4220,11 @@
   },
   {
     "id": "deal-scraped-250",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "MAZOLA CORN OIL",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BERTOLLI OLIVE OIL",
     "description": "",
-    "price": 8.99,
+    "price": 8.49,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -4237,11 +4237,11 @@
   },
   {
     "id": "deal-scraped-251",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BERTOLLI OLIVE OIL",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "MAZOLA CORN OIL",
     "description": "",
-    "price": 8.49,
+    "price": 8.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -4577,57 +4577,6 @@
   },
   {
     "id": "deal-scraped-271",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BORDEN ASSORTED CHEESES",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-272",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "CABOT ASSORTED CHEESES",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-273",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "BORDEN SHREDDED CHEESES",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-274",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRAFT ASSORTED CHEESES",
@@ -4644,46 +4593,12 @@
     ]
   },
   {
-    "id": "deal-scraped-275",
+    "id": "deal-scraped-272",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "ALPINE LACE SWISS CHEESE",
+    "title": "BORDEN SHREDDED CHEESES",
     "description": "",
-    "price": 7.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-276",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Land O Lakes American Cheese",
-    "description": "",
-    "price": 5.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-277",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "KERRYGOLD CHEESE WEDGE 7 Oz. Pkg.",
-    "description": "",
-    "price": 5.99,
+    "price": 7,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4695,7 +4610,41 @@
     ]
   },
   {
-    "id": "deal-scraped-278",
+    "id": "deal-scraped-273",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "CABOT ASSORTED CHEESES",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-274",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BORDEN ASSORTED CHEESES",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-275",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE SLICED MUENSTER CHEESE",
@@ -4712,10 +4661,44 @@
     ]
   },
   {
-    "id": "deal-scraped-279",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BOAR'S HEAD AMERICAN CHEESE",
+    "id": "deal-scraped-276",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "BOAR'S HEAD MUENSTER CHEESE",
+    "description": "",
+    "price": 6.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-277",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "ALPINE LACE SWISS CHEESE",
+    "description": "",
+    "price": 7.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-278",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Land O Lakes American Cheese",
     "description": "",
     "price": 5.99,
     "unit": "per lb",
@@ -4729,7 +4712,7 @@
     ]
   },
   {
-    "id": "deal-scraped-280",
+    "id": "deal-scraped-279",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "ATHENOS CRUMBLED FETA CHEESE",
@@ -4746,12 +4729,29 @@
     ]
   },
   {
-    "id": "deal-scraped-281",
+    "id": "deal-scraped-280",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "BOAR'S HEAD MUENSTER CHEESE",
+    "title": "KERRYGOLD CHEESE WEDGE 7 Oz. Pkg.",
     "description": "",
-    "price": 6.99,
+    "price": 5.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-281",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BOAR'S HEAD AMERICAN CHEESE",
+    "description": "",
+    "price": 5.99,
     "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
@@ -4868,23 +4868,6 @@
     "id": "deal-scraped-288",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "KRASDALE CREAM CHEESE",
-    "description": "",
-    "price": 4,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-sale",
-    "validFrom": "2026-02-27T05:00:00+00:00",
-    "validTo": "2026-03-06T04:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-scraped-289",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
     "title": "PHILADELPHIA CREAM CHEESE",
     "description": "",
     "price": 3.99,
@@ -4899,9 +4882,26 @@
     ]
   },
   {
-    "id": "deal-scraped-290",
+    "id": "deal-scraped-289",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
+    "title": "KRASDALE CREAM CHEESE",
+    "description": "",
+    "price": 4,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-sale",
+    "validFrom": "2026-02-27T05:00:00+00:00",
+    "validTo": "2026-03-06T04:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-scraped-290",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "KRASDALE CREAM CHEESE",
     "description": "",
     "price": 4,
