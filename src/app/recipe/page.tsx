@@ -228,7 +228,7 @@ export default function RecipePage() {
         {/* Sidebar */}
         <div className="space-y-6">
           {/* Shopping Summary */}
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 sticky top-20">
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
             <h3 className="font-bold mb-3">Shopping Summary</h3>
             <p className="text-sm text-gray-600 mb-4">
               Visit these {recommendedStores.length} store
