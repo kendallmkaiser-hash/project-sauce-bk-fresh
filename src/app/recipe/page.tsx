@@ -126,7 +126,7 @@ export default function RecipePage() {
               <h2 className="text-xl font-bold">Where to Buy - Best Prices</h2>
               <div className="text-right">
                 <div className="text-sm text-gray-500">Estimated Total</div>
-                <div className="text-2xl font-bold text-[var(--ps-green)]">
+                <div className="text-2xl font-bold text-[var(--ps-red)]">
                   ${totalEstimatedCost.toFixed(2)}
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function RecipePage() {
                     </div>
                     {match.bestDeal ? (
                       <div className="text-right">
-                        <div className="font-bold text-[var(--ps-green)]">
+                        <div className="font-bold text-[var(--ps-red)]">
                           ${match.bestDeal.price.toFixed(2)}{" "}
                           <span className="text-xs font-normal text-gray-500">
                             {match.bestDeal.unit}
@@ -198,7 +198,7 @@ export default function RecipePage() {
             <ol className="space-y-4">
               {recipe.instructions.map((step, i) => (
                 <li key={i} className="flex gap-4">
-                  <span className="w-7 h-7 bg-[var(--ps-green)] text-white rounded-full flex items-center justify-center shrink-0 text-sm font-bold">
+                  <span className="w-7 h-7 bg-[var(--ps-red)] text-white rounded-full flex items-center justify-center shrink-0 text-sm font-bold">
                     {i + 1}
                   </span>
                   <p className="text-gray-700 pt-0.5">{step}</p>
@@ -260,7 +260,7 @@ export default function RecipePage() {
             <div className="border-t border-gray-100 pt-4">
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-gray-600">Estimated Total</span>
-                <span className="font-bold text-[var(--ps-green)]">
+                <span className="font-bold text-[var(--ps-red)]">
                   ${totalEstimatedCost.toFixed(2)}
                 </span>
               </div>

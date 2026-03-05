@@ -56,14 +56,14 @@ export default function SearchFilter({
               placeholder="Search by ingredient, store, or product..."
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
-              className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[var(--ps-green)] focus:border-transparent"
+              className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[var(--ps-red)] focus:border-transparent"
             />
           </div>
         </div>
         <select
           value={selectedCategory}
           onChange={(e) => onCategoryChange(e.target.value)}
-          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-green)]"
+          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-red)]"
         >
           <option value="">All Categories</option>
           {categories.map((cat) => (
@@ -75,7 +75,7 @@ export default function SearchFilter({
         <select
           value={selectedType}
           onChange={(e) => onTypeChange(e.target.value)}
-          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-green)]"
+          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-red)]"
         >
           <option value="">All Deal Types</option>
           {types.map((type) => (
@@ -87,7 +87,7 @@ export default function SearchFilter({
         <select
           value={sortBy}
           onChange={(e) => onSortChange(e.target.value)}
-          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-green)]"
+          className="px-3 py-2.5 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--ps-red)]"
         >
           <option value="price-low">Price: Low to High</option>
           <option value="price-high">Price: High to Low</option>

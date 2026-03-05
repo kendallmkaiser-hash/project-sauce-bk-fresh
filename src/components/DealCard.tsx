@@ -15,9 +15,9 @@ interface Deal {
 }
 
 const typeColors: Record<string, { bg: string; text: string }> = {
-  "weekly-flyer": { bg: "bg-green-100", text: "text-green-800" },
-  "weekly-sale": { bg: "bg-green-100", text: "text-green-800" },
-  "everyday-low": { bg: "bg-blue-100", text: "text-blue-800" },
+  "weekly-flyer": { bg: "bg-red-50", text: "text-[var(--ps-red)]" },
+  "weekly-sale": { bg: "bg-red-50", text: "text-[var(--ps-red)]" },
+  "everyday-low": { bg: "bg-amber-50", text: "text-amber-800" },
   coupon: { bg: "bg-purple-100", text: "text-purple-800" },
   "meal-deal": { bg: "bg-orange-100", text: "text-orange-800" },
 };
@@ -61,7 +61,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
           </div>
           <h3 className="font-semibold text-lg">{deal.title}</h3>
           {isLowestPrice && (
-            <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-[var(--ps-green)] bg-green-50 border border-green-200 rounded px-1.5 py-0.5 mt-1">
+            <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-[var(--ps-orange)] bg-amber-50 border border-amber-200 rounded px-1.5 py-0.5 mt-1">
               Best Price in BK
             </span>
           )}
@@ -80,7 +80,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
               <span className="text-[10px] block text-gray-400">avg across stores</span>
             </div>
           ) : null}
-          <div className="text-2xl font-bold text-[var(--ps-green)]">
+          <div className="text-2xl font-bold text-[var(--ps-red)]">
             ${deal.price.toFixed(2)}
           </div>
           <div className="text-xs text-gray-500">{deal.unit}</div>
@@ -89,7 +89,7 @@ export default function DealCard({ deal, isLowestPrice, avgPrice }: DealCardProp
               {savings}% OFF
             </div>
           ) : avgSavings ? (
-            <div className="text-xs font-bold text-white bg-[var(--ps-green)] rounded-full px-2 py-0.5 mt-1 inline-block">
+            <div className="text-xs font-bold text-[var(--ps-red-dark)] bg-amber-100 rounded-full px-2 py-0.5 mt-1 inline-block">
               {avgSavings}% cheaper than avg
             </div>
           ) : null}

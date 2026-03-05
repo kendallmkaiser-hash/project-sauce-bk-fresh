@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import deals from "../../data/deals.json";
 import recipes from "../../data/recipes.json";
 
@@ -9,8 +10,15 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-[var(--ps-green-dark)] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <section className="bg-[var(--ps-red)] text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center relative z-10">
+          <Image
+            src="/logo-full.jpg"
+            alt="Project Sauce"
+            width={180}
+            height={180}
+            className="mx-auto mb-6 rounded-2xl shadow-lg"
+          />
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
             Eat Well for Less in{" "}
             <span className="text-[var(--ps-orange)]">Downtown Brooklyn</span>
@@ -22,7 +30,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/stores"
-              className="inline-block bg-[var(--ps-orange)] hover:bg-[var(--ps-orange-light)] text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+              className="inline-block bg-[var(--ps-orange)] hover:bg-[var(--ps-orange-light)] text-[var(--ps-red-dark)] font-bold px-8 py-3 rounded-lg transition-colors"
             >
               Find Stores Near You
             </Link>
@@ -39,17 +47,17 @@ export default function Home() {
       {/* Quick Stats */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="bg-white rounded-xl shadow-md p-6 text-center">
-            <div className="text-3xl font-bold text-[var(--ps-green)]">16</div>
+          <div className="bg-white rounded-xl shadow-md p-6 text-center border-t-4 border-[var(--ps-red)]">
+            <div className="text-3xl font-bold text-[var(--ps-red)]">16</div>
             <div className="text-gray-600 text-sm mt-1">Stores Tracked</div>
           </div>
-          <div className="bg-white rounded-xl shadow-md p-6 text-center">
+          <div className="bg-white rounded-xl shadow-md p-6 text-center border-t-4 border-[var(--ps-orange)]">
             <div className="text-3xl font-bold text-[var(--ps-orange)]">
               {deals.length}
             </div>
             <div className="text-gray-600 text-sm mt-1">Active Deals</div>
           </div>
-          <div className="bg-white rounded-xl shadow-md p-6 text-center">
+          <div className="bg-white rounded-xl shadow-md p-6 text-center border-t-4 border-[var(--ps-brown)]">
             <div className="text-3xl font-bold text-[var(--ps-brown)]">
               Weekly
             </div>
@@ -64,7 +72,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold">This Week&apos;s Best Prices</h2>
           <Link
             href="/deals"
-            className="text-[var(--ps-green)] font-medium hover:underline"
+            className="text-[var(--ps-red)] font-medium hover:underline"
           >
             View All &rarr;
           </Link>
@@ -78,7 +86,7 @@ export default function Home() {
               <span className="text-xs text-gray-500">{deal.storeName}</span>
               <h3 className="font-semibold mt-1">{deal.title}</h3>
               <div className="flex items-baseline gap-2 mt-2">
-                <span className="text-xl font-bold text-[var(--ps-green)]">
+                <span className="text-xl font-bold text-[var(--ps-red)]">
                   ${deal.price.toFixed(2)}
                 </span>
                 <span className="text-xs text-gray-500">{deal.unit}</span>
@@ -101,7 +109,7 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-md p-8">
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-1">
-                  <span className="deal-badge bg-[var(--ps-orange)] text-white">
+                  <span className="deal-badge bg-[var(--ps-orange)] text-[var(--ps-red-dark)]">
                     Featured
                   </span>
                   <h3 className="text-2xl font-bold mt-3">
@@ -118,7 +126,7 @@ export default function Home() {
                   </div>
                   <Link
                     href="/recipe"
-                    className="inline-block mt-6 bg-[var(--ps-green)] hover:bg-[var(--ps-green-light)] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors"
+                    className="inline-block mt-6 bg-[var(--ps-red)] hover:bg-[var(--ps-red-light)] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors"
                   >
                     See Full Recipe & Best Prices
                   </Link>
@@ -145,8 +153,8 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-center mb-10">How It Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
-            <div className="w-14 h-14 bg-[var(--ps-green)]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-2xl font-bold text-[var(--ps-green)]">1</span>
+            <div className="w-14 h-14 bg-[var(--ps-red)]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-2xl font-bold text-[var(--ps-red)]">1</span>
             </div>
             <h3 className="font-semibold mb-2">Browse the Map</h3>
             <p className="text-sm text-gray-600">
@@ -158,10 +166,10 @@ export default function Home() {
             <div className="w-14 h-14 bg-[var(--ps-orange)]/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-[var(--ps-orange)]">2</span>
             </div>
-            <h3 className="font-semibold mb-2">Compare Deals</h3>
+            <h3 className="font-semibold mb-2">Compare Prices</h3>
             <p className="text-sm text-gray-600">
-              Search and filter current deals across all tracked stores to find
-              the best prices.
+              Search and filter current flyer prices across all tracked stores to
+              find the best value.
             </p>
           </div>
           <div className="text-center">

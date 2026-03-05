@@ -136,7 +136,7 @@ export default function StoresPage() {
                       </div>
                     </div>
                     <div className="text-right shrink-0 ml-3">
-                      <div className="font-bold text-[var(--ps-green)]">
+                      <div className="font-bold text-[var(--ps-red)]">
                         ${deal.price.toFixed(2)}
                       </div>
                       <div className="text-xs text-gray-500">{deal.unit}</div>
@@ -164,7 +164,7 @@ export default function StoresPage() {
                 onClick={() => setSelectedStore(store.id)}
                 className={`text-left bg-white rounded-xl border p-4 hover:shadow-md transition-shadow ${
                   selectedStore === store.id
-                    ? "border-[var(--ps-green)] shadow-md"
+                    ? "border-[var(--ps-red)] shadow-md"
                     : "border-gray-100"
                 }`}
               >
@@ -186,7 +186,7 @@ export default function StoresPage() {
                   ))}
                 </div>
                 {count > 0 && (
-                  <p className="text-xs text-[var(--ps-green)] font-medium mt-2">
+                  <p className="text-xs text-[var(--ps-red)] font-medium mt-2">
                     {count} active deal{count > 1 ? "s" : ""}
                   </p>
                 )}

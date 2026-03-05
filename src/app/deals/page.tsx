@@ -142,7 +142,7 @@ export default function DealsPage() {
               setSelectedCategory("");
               setSelectedType("");
             }}
-            className="mt-4 text-[var(--ps-green)] font-medium hover:underline"
+            className="mt-4 text-[var(--ps-red)] font-medium hover:underline"
           >
             Clear all filters
           </button>
