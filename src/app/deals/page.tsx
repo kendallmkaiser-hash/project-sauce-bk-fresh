@@ -9,7 +9,7 @@ export default function DealsPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedType, setSelectedType] = useState("");
-  const [sortBy, setSortBy] = useState("price-low");
+  const [sortBy, setSortBy] = useState("savings");
 
   const categories = [...new Set(deals.map((d) => d.category))];
   const types = [...new Set(deals.map((d) => d.type))];

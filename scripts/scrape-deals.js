@@ -194,9 +194,15 @@ async function scrapeDeals() {
 
   console.log(`\nMatched ${allItems.length} deals to tracked stores.`);
 
+  // Filter out items with no price or no name
+  const validItems = allItems.filter(
+    (item) => item.price > 0 && item.name && item.name.trim() !== ""
+  );
+  console.log(`After filtering invalid items: ${validItems.length} deals remain.`);
+
   // Convert to our deal format
   const now = new Date().toISOString().split("T")[0];
-  const deals = allItems.map((item, i) => ({
+  const deals = validItems.map((item, i) => ({
     id: `deal-scraped-${i + 1}`,
     storeId: item.storeId,
     storeName: item.storeName,
