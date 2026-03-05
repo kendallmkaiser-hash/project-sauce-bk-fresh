@@ -67,7 +67,7 @@ export default function StoreMap({
   const center: [number, number] = [40.6892, -73.9816];
 
   return (
-    <div className="w-full rounded-xl overflow-hidden shadow-lg" style={{ height }}>
+    <div className="w-full rounded-xl overflow-hidden shadow-lg relative" style={{ height, zIndex: 0 }}>
       <MapContainer
         center={center}
         zoom={14}
