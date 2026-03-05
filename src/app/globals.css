@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --ps-green: #2D6A4F;
+  --ps-green-light: #40916C;
+  --ps-green-dark: #1B4332;
+  --ps-orange: #E76F51;
+  --ps-orange-light: #F4A261;
+  --ps-cream: #FEFAE0;
+  --ps-brown: #6C584C;
+  --background: #FAFAF5;
+  --foreground: #1a1a1a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ps-green: var(--ps-green);
+  --color-ps-green-light: var(--ps-green-light);
+  --color-ps-green-dark: var(--ps-green-dark);
+  --color-ps-orange: var(--ps-orange);
+  --color-ps-orange-light: var(--ps-orange-light);
+  --color-ps-cream: var(--ps-cream);
+  --color-ps-brown: var(--ps-brown);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.affordability-1 { color: #2D6A4F; }
+.affordability-2 { color: #E9C46A; }
+.affordability-3 { color: #E76F51; }
+
+.deal-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
