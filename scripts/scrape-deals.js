@@ -130,6 +130,34 @@ function extractTags(name, description) {
   return tags.slice(0, 5);
 }
 
+function normalizeUnit(postPriceText) {
+  if (!postPriceText) return "each";
+  const raw = postPriceText.replace(/^\//, "").trim().toLowerCase();
+  if (raw.includes("lb")) return "per lb";
+  if (raw.includes("oz")) return "per oz";
+  if (raw.includes("ea")) return "each";
+  if (raw === "for") return "each";
+  if (!raw) return "each";
+  return "each";
+}
+
+function classifyDealType(item) {
+  const story = (item.saleStory || "").toLowerCase();
+  const pre = (item.prePriceText || "").toLowerCase();
+
+  // Has explicit savings info
+  if (item.originalPrice && item.originalPrice > item.price) return "weekly-sale";
+  if (story.includes("save")) return "weekly-sale";
+  if (story.includes("buy") && story.includes("get")) return "coupon";
+  if (story.includes("bogo") || story.includes("b1g1")) return "coupon";
+  if (pre.includes("sale")) return "weekly-sale";
+  if (pre.includes("coupon") || pre.includes("clip")) return "coupon";
+  if (story.includes("meal") || story.includes("dinner")) return "meal-deal";
+
+  // All flyer items are inherently weekly promotions
+  return "weekly-sale";
+}
+
 async function scrapeDeals() {
   console.log("Starting deal scrape for Downtown Brooklyn (11201)...\n");
 
@@ -181,6 +209,9 @@ async function scrapeDeals() {
         description: item.description || "",
         price: item.current_price || item.price || 0,
         originalPrice: item.original_price || null,
+        saleStory: item.sale_story || null,
+        prePriceText: item.pre_price_text || null,
+        postPriceText: item.post_price_text || null,
         validFrom: item.valid_from || new Date().toISOString().split("T")[0],
         validTo:
           item.valid_to ||
@@ -207,15 +238,17 @@ async function scrapeDeals() {
     storeId: item.storeId,
     storeName: item.storeName,
     title: item.name,
-    description: item.description,
+    description: item.saleStory
+      ? item.saleStory
+      : item.description || "",
     price: item.price,
-    unit: "each",
+    unit: normalizeUnit(item.postPriceText),
     originalPrice:
       item.originalPrice && item.originalPrice > item.price
         ? item.originalPrice
         : null,
     category: categorizeItem(item.name, item.description),
-    type: item.originalPrice ? "weekly-sale" : "everyday-low",
+    type: classifyDealType(item),
     validFrom: item.validFrom,
     validTo: item.validTo,
     tags: extractTags(item.name, item.description),
