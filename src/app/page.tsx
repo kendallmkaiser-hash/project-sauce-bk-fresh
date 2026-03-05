@@ -82,9 +82,9 @@ export default function Home() {
                   ${deal.price.toFixed(2)}
                 </span>
                 <span className="text-xs text-gray-500">{deal.unit}</span>
-                {deal.originalPrice && (
+                {deal.originalPrice != null && (
                   <span className="text-sm text-gray-400 line-through">
-                    ${deal.originalPrice.toFixed(2)}
+                    ${Number(deal.originalPrice).toFixed(2)}
                   </span>
                 )}
               </div>

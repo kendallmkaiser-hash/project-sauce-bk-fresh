@@ -41,11 +41,14 @@ async function searchFlipp(query, postalCode = "11201") {
 // Map Flipp merchant names to our store IDs
 const MERCHANT_MAP = {
   aldi: "aldi-downtown",
+  lidl: null, // Lidl not in our tracked stores
   "key food": "keyfood-fulton",
   target: "target-atlantic",
   "trader joe": "trader-joes-atlantic",
   foodtown: "foodtown-myrtle",
+  "c town": "ctownsupermarket-dekalb",
   "c-town": "ctownsupermarket-dekalb",
+  "ctown": "ctownsupermarket-dekalb",
   "stop & shop": "stop-and-shop-atlantic",
   "stop and shop": "stop-and-shop-atlantic",
   "family dollar": "family-dollar-myrtle",
@@ -164,7 +167,7 @@ async function scrapeDeals() {
       if (seenIds.has(item.id)) continue;
       seenIds.add(item.id);
 
-      const storeId = matchMerchant(item.merchant || "");
+      const storeId = matchMerchant(item.merchant_name || item.merchant || "");
       if (!storeId) continue;
 
       const store = stores.find((s) => s.id === storeId);
@@ -177,9 +180,7 @@ async function scrapeDeals() {
         name: item.name || "",
         description: item.description || "",
         price: item.current_price || item.price || 0,
-        originalPrice: item.pre_price_text
-          ? parseFloat(item.pre_price_text.replace(/[^0-9.]/g, ""))
-          : null,
+        originalPrice: item.original_price || null,
         validFrom: item.valid_from || new Date().toISOString().split("T")[0],
         validTo:
           item.valid_to ||
