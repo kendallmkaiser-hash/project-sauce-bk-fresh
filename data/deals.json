@@ -203,9 +203,9 @@
   },
   {
     "id": "deal-flipp-12",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "PERDUE WHOLE CHICKEN WINGS",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "WHOLE BONELESS CHICKEN BREAST",
     "description": "",
     "price": 1.99,
     "unit": "per lb",
@@ -221,9 +221,9 @@
   },
   {
     "id": "deal-flipp-13",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "WHOLE BONELESS CHICKEN BREAST",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "PERDUE WHOLE CHICKEN WINGS",
     "description": "",
     "price": 1.99,
     "unit": "per lb",
@@ -275,12 +275,12 @@
   },
   {
     "id": "deal-flipp-16",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "PERDUE CHICKEN DRUMSTICKS & THIGHS COMBO",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BELL & EVANS CHICKEN DRUMSTICKS",
     "description": "",
-    "price": 1.59,
-    "unit": "per lb",
+    "price": 3.49,
+    "unit": "each",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-flyer",
@@ -311,24 +311,6 @@
   },
   {
     "id": "deal-flipp-18",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BELL & EVANS CHICKEN DRUMSTICKS",
-    "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-flipp-19",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "CAULIPOWER CHICKEN TENDERS",
@@ -346,7 +328,7 @@
     ]
   },
   {
-    "id": "deal-flipp-20",
+    "id": "deal-flipp-19",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "SHAVED CHICKEN BREAST",
@@ -364,13 +346,31 @@
     ]
   },
   {
-    "id": "deal-flipp-21",
+    "id": "deal-flipp-20",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "SHAVED CHICKEN BREAST",
     "description": "",
     "price": 4.99,
     "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "deal-flipp-21",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "PERDUE CHICKEN DRUMSTICKS & THIGHS COMBO",
+    "description": "",
+    "price": 1.59,
+    "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-flyer",
@@ -509,6 +509,24 @@
   },
   {
     "id": "deal-flipp-29",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "All Natural, Fully Cooked: Sweet Italian or Roasted Garlic CHICKEN SAUSAGE",
+    "description": "",
+    "price": 5.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "deal-flipp-30",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Perdue Breaded Chicken Nuggets, Strips or Cutlets",
@@ -524,24 +542,6 @@
     "tags": [
       "chicken",
       "bread"
-    ]
-  },
-  {
-    "id": "deal-flipp-30",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "All Natural, Fully Cooked: Sweet Italian or Roasted Garlic CHICKEN SAUSAGE",
-    "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "chicken"
     ]
   },
   {
@@ -584,24 +584,6 @@
     "id": "deal-flipp-33",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Bertolino Foods Smashed Beef Burger",
-    "description": "$1 OFF/EA.",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": 10.99,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-flipp-34",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
     "title": "Heritage Ribeye Beef Shaved Steak",
     "description": "$1 OFF/EA.",
     "price": 7.49,
@@ -617,7 +599,7 @@
     ]
   },
   {
-    "id": "deal-flipp-35",
+    "id": "deal-flipp-34",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "GROUND BEEF",
@@ -635,7 +617,7 @@
     ]
   },
   {
-    "id": "deal-flipp-36",
+    "id": "deal-flipp-35",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "GROUND BEEF",
@@ -653,7 +635,7 @@
     ]
   },
   {
-    "id": "deal-flipp-37",
+    "id": "deal-flipp-36",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "SLICED TURKEY DRUMSTICKS",
@@ -669,9 +651,27 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-38",
+    "id": "deal-flipp-37",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
+    "title": "BEEF BURGERS",
+    "description": "",
+    "price": 11.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beef"
+    ]
+  },
+  {
+    "id": "deal-flipp-38",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "BEEF BURGERS",
     "description": "",
     "price": 11.99,
@@ -688,24 +688,6 @@
   },
   {
     "id": "deal-flipp-39",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "BEEF BURGERS",
-    "description": "",
-    "price": 11.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-flipp-40",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "BEEF FAJITA STRIPS",
@@ -723,7 +705,7 @@
     ]
   },
   {
-    "id": "deal-flipp-41",
+    "id": "deal-flipp-40",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BEEF FAJITA STRIPS",
@@ -741,7 +723,7 @@
     ]
   },
   {
-    "id": "deal-flipp-42",
+    "id": "deal-flipp-41",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Fresh 96/4 Ground Beef",
@@ -754,6 +736,24 @@
     "source": "flipp",
     "validFrom": "2026-10-07T04:00:00+00:00",
     "validTo": "2026-10-14T03:59:59+00:00",
+    "tags": [
+      "beef"
+    ]
+  },
+  {
+    "id": "deal-flipp-42",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GRASS FED BEEF SLIDERS",
+    "description": "",
+    "price": 11.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
       "beef"
     ]
@@ -780,24 +780,6 @@
     "id": "deal-flipp-44",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "GRASS FED BEEF SLIDERS",
-    "description": "",
-    "price": 11.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-flipp-45",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
     "title": "OLD NEIGHBORHOOD SHAVED BEEF STEAK",
     "description": "",
     "price": 5.99,
@@ -813,7 +795,7 @@
     ]
   },
   {
-    "id": "deal-flipp-46",
+    "id": "deal-flipp-45",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "OLD NEIGHBORHOOD SHAVED BEEF STEAK",
@@ -831,7 +813,7 @@
     ]
   },
   {
-    "id": "deal-flipp-47",
+    "id": "deal-flipp-46",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BEEF TOP ROUND LONDON BROIL OR ROAST",
@@ -850,7 +832,7 @@
     ]
   },
   {
-    "id": "deal-flipp-48",
+    "id": "deal-flipp-47",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "SMOKED PORK HOCKS",
@@ -868,13 +850,31 @@
     ]
   },
   {
-    "id": "deal-flipp-49",
+    "id": "deal-flipp-48",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Hatfield Marinated Pork",
     "description": "",
     "price": 5.99,
     "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "pork"
+    ]
+  },
+  {
+    "id": "deal-flipp-49",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "WHOLE PORK SHOULDER",
+    "description": "",
+    "price": 1.59,
+    "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
     "type": "weekly-flyer",
@@ -907,24 +907,6 @@
     "id": "deal-flipp-51",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "WHOLE PORK SHOULDER",
-    "description": "",
-    "price": 1.59,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "pork"
-    ]
-  },
-  {
-    "id": "deal-flipp-52",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
     "title": "WHOLE SLICED PORK SHOULDER",
     "description": "",
     "price": 1.79,
@@ -940,7 +922,7 @@
     ]
   },
   {
-    "id": "deal-flipp-53",
+    "id": "deal-flipp-52",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "WHOLE BONELESS PORK LOIN",
@@ -958,12 +940,30 @@
     ]
   },
   {
-    "id": "deal-flipp-54",
+    "id": "deal-flipp-53",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Bone-In Pork Chops Or Roast",
     "description": "",
     "price": 1.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "pork"
+    ]
+  },
+  {
+    "id": "deal-flipp-54",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "BONE-IN PORK FOR STEW",
+    "description": "",
+    "price": 2.99,
     "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
@@ -997,7 +997,7 @@
     "id": "deal-flipp-56",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "BONE-IN PORK FOR STEW",
+    "title": "SMOKED PORK NECK BONES",
     "description": "",
     "price": 2.99,
     "unit": "per lb",
@@ -1013,11 +1013,11 @@
   },
   {
     "id": "deal-flipp-57",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "SMOKED PORK NECK BONES",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "PORK RIB BELLIES",
     "description": "",
-    "price": 2.99,
+    "price": 3.49,
     "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
@@ -1051,24 +1051,6 @@
     "id": "deal-flipp-59",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "PORK RIB BELLIES",
-    "description": "",
-    "price": 3.49,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "pork"
-    ]
-  },
-  {
-    "id": "deal-flipp-60",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
     "title": "BONELESS HALF PORK LOIN ROAST",
     "description": "",
     "price": 2.69,
@@ -1084,7 +1066,7 @@
     ]
   },
   {
-    "id": "deal-flipp-61",
+    "id": "deal-flipp-60",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "SLICED PORK RIB BELLY",
@@ -1102,12 +1084,12 @@
     ]
   },
   {
-    "id": "deal-flipp-62",
+    "id": "deal-flipp-61",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "THIN SLICED BONELESS PORK CHOPS",
     "description": "",
-    "price": 3.59,
+    "price": 3.89,
     "unit": "per lb",
     "originalPrice": null,
     "category": "meat",
@@ -1120,7 +1102,7 @@
     ]
   },
   {
-    "id": "deal-flipp-63",
+    "id": "deal-flipp-62",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "PREMIO PURE PORK ITALIAN SAUSAGE",
@@ -1138,7 +1120,7 @@
     ]
   },
   {
-    "id": "deal-flipp-64",
+    "id": "deal-flipp-63",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "FULLY COOKED MEATLOAF OR PORK ROAST ENTREES",
@@ -1157,7 +1139,7 @@
     ]
   },
   {
-    "id": "deal-flipp-65",
+    "id": "deal-flipp-64",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "FULLY COOKED MEATLOAF OR PORK ROAST ENTREES",
@@ -1176,7 +1158,43 @@
     ]
   },
   {
+    "id": "deal-flipp-65",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "CAROLINA JASMINE RICE",
+    "description": "GET $5 WHEN YOU PURCHASE $20 OF PARTICIPATING PRODUCTS WITH YOUR PREFERRED SHOPPER CARD.",
+    "price": 15.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "rice"
+    ]
+  },
+  {
     "id": "deal-flipp-66",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "CAROLINA RICE",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "rice"
+    ]
+  },
+  {
+    "id": "deal-flipp-67",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Minute Rice Cups or Carolina Rice",
@@ -1194,30 +1212,12 @@
     ]
   },
   {
-    "id": "deal-flipp-67",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "CAROLINA RICE",
-    "description": "GET $5 WHEN YOU PURCHASE $20 OF PARTICIPATING PRODUCTS WITH YOUR PREFERRED SHOPPER CARD",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
     "id": "deal-flipp-68",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "CAROLINA JASMINE RICE",
-    "description": "GET $5 WHEN YOU PURCHASE $20 OF PARTICIPATING PRODUCTS WITH YOUR PREFERRED SHOPPER CARD.",
-    "price": 15.99,
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Carolina Basmati Rice",
+    "description": "",
+    "price": 8.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1304,11 +1304,11 @@
   },
   {
     "id": "deal-flipp-73",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Goya Low Sodium Yellow Rice",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GOYA YELLOW RICE",
     "description": "",
-    "price": 3,
+    "price": 4.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1340,11 +1340,11 @@
   },
   {
     "id": "deal-flipp-75",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GOYA YELLOW RICE",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Goya Low Sodium Yellow Rice",
     "description": "",
-    "price": 4.99,
+    "price": 3,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1358,24 +1358,6 @@
   },
   {
     "id": "deal-flipp-76",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "GOYA CANILLA RICE",
-    "description": "",
-    "price": 13.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-flipp-77",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "CAROLINA JASMINE RICE",
@@ -1393,15 +1375,15 @@
     ]
   },
   {
-    "id": "deal-flipp-78",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Carolina Basmati Rice",
+    "id": "deal-flipp-77",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "GOYA CANILLA RICE",
     "description": "",
-    "price": 8.99,
+    "price": 13.99,
     "unit": "each",
     "originalPrice": null,
-    "category": "pantry",
+    "category": "canned",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
@@ -1411,7 +1393,7 @@
     ]
   },
   {
-    "id": "deal-flipp-79",
+    "id": "deal-flipp-78",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "GOYA CANILLA RICE",
@@ -1429,7 +1411,7 @@
     ]
   },
   {
-    "id": "deal-flipp-80",
+    "id": "deal-flipp-79",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "RICO LONG GRAIN RICE",
@@ -1447,7 +1429,7 @@
     ]
   },
   {
-    "id": "deal-flipp-81",
+    "id": "deal-flipp-80",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Fusia Asian Inspirations Chicken Fried Rice or Lo Mein",
@@ -1463,6 +1445,24 @@
     "tags": [
       "chicken",
       "rice"
+    ]
+  },
+  {
+    "id": "deal-flipp-81",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Barilla Pasta",
+    "description": "",
+    "price": 3,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": [
+      "pasta"
     ]
   },
   {
@@ -1503,6 +1503,25 @@
   },
   {
     "id": "deal-flipp-84",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Knorr Pasta or Rice Sides",
+    "description": "",
+    "price": 1,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": [
+      "rice",
+      "pasta"
+    ]
+  },
+  {
+    "id": "deal-flipp-85",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "BARILLA READY PASTA",
@@ -1520,7 +1539,7 @@
     ]
   },
   {
-    "id": "deal-flipp-85",
+    "id": "deal-flipp-86",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BARILLA READY PASTA",
@@ -1538,7 +1557,7 @@
     ]
   },
   {
-    "id": "deal-flipp-86",
+    "id": "deal-flipp-87",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "LUIGI VITELLI PASTA",
@@ -1556,7 +1575,7 @@
     ]
   },
   {
-    "id": "deal-flipp-87",
+    "id": "deal-flipp-88",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KNORR PASTA SIDES",
@@ -1574,7 +1593,7 @@
     ]
   },
   {
-    "id": "deal-flipp-88",
+    "id": "deal-flipp-89",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "KNORR PASTA SIDES",
@@ -1592,43 +1611,7 @@
     ]
   },
   {
-    "id": "deal-flipp-89",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "EGGLAND'S BEST CAGE FREE LARGE EGGS",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "eggs"
-    ]
-  },
-  {
     "id": "deal-flipp-90",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Land O Lakes Large Cage Free Brown Eggs",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "eggs"
-    ]
-  },
-  {
-    "id": "deal-flipp-91",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "EGG-LAND'S BEST LARGE EGGS",
@@ -1646,7 +1629,61 @@
     ]
   },
   {
+    "id": "deal-flipp-91",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "EGGLAND'S BEST CAGE FREE LARGE EGGS",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "eggs"
+    ]
+  },
+  {
     "id": "deal-flipp-92",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Land O Lakes Large Cage Free Brown Eggs",
+    "description": "",
+    "price": 2.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "deal-flipp-93",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Lactaid Milk or Creamer",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "milk"
+    ]
+  },
+  {
+    "id": "deal-flipp-94",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Tru Moo, Garelick Farms or Tuscan Milk",
@@ -1664,7 +1701,7 @@
     ]
   },
   {
-    "id": "deal-flipp-93",
+    "id": "deal-flipp-95",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Tru Moo Milk",
@@ -1682,7 +1719,7 @@
     ]
   },
   {
-    "id": "deal-flipp-94",
+    "id": "deal-flipp-96",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ORGANIC VALLEY MILK",
@@ -1701,25 +1738,7 @@
     ]
   },
   {
-    "id": "deal-flipp-95",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Lactaid Milk or Creamer",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "milk"
-    ]
-  },
-  {
-    "id": "deal-flipp-96",
+    "id": "deal-flipp-97",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Califia Farms Organic Plant-Based Milk",
@@ -1738,7 +1757,7 @@
     ]
   },
   {
-    "id": "deal-flipp-97",
+    "id": "deal-flipp-98",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "OAT-LY! OAT-MILK, 1/2 Gal. Cntr.",
@@ -1756,7 +1775,7 @@
     ]
   },
   {
-    "id": "deal-flipp-98",
+    "id": "deal-flipp-99",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "MAGNOLIA SWEETENED CONDENSED MILK",
@@ -1774,7 +1793,7 @@
     ]
   },
   {
-    "id": "deal-flipp-99",
+    "id": "deal-flipp-100",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "MAGNOLIA SWEETENED CONDENSED MILK",
@@ -1792,7 +1811,7 @@
     ]
   },
   {
-    "id": "deal-flipp-100",
+    "id": "deal-flipp-101",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Sweet Condensed Milk",
@@ -1810,79 +1829,7 @@
     ]
   },
   {
-    "id": "deal-flipp-101",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KRASDALE GIANT WHITE BREAD",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
     "id": "deal-flipp-102",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "KRASDALE GIANT WHITE BREAD",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-flipp-103",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BIMBO SOFT WHITE BREAD",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-flipp-104",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Wonder Bread, Bagels, English Muffins or Tastykake Donuts",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "bread"
-    ]
-  },
-  {
-    "id": "deal-flipp-105",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "OROWEAT BREAD",
@@ -1900,7 +1847,43 @@
     ]
   },
   {
-    "id": "deal-flipp-106",
+    "id": "deal-flipp-103",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KRASDALE GIANT WHITE BREAD",
+    "description": "",
+    "price": 1.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-flipp-104",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "KRASDALE GIANT WHITE BREAD",
+    "description": "",
+    "price": 1.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-flipp-105",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "WONDER ROUND TOP WHITE BREAD",
@@ -1918,7 +1901,7 @@
     ]
   },
   {
-    "id": "deal-flipp-107",
+    "id": "deal-flipp-106",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "The Bakery Freshly Baked Italian Bread",
@@ -1936,7 +1919,7 @@
     ]
   },
   {
-    "id": "deal-flipp-108",
+    "id": "deal-flipp-107",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "OROWEAT OR ARNOLD BREAD",
@@ -1949,6 +1932,24 @@
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-flipp-108",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Chestnut Hill Garlic Bread Sticks",
+    "description": "",
+    "price": 3,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
     "tags": [
       "bread"
     ]
@@ -1973,6 +1974,24 @@
   },
   {
     "id": "deal-flipp-110",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BIMBO SOFT WHITE BREAD",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-flipp-111",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BIMBO SOFT WHITE FAMILY BREAD",
@@ -1990,7 +2009,25 @@
     ]
   },
   {
-    "id": "deal-flipp-111",
+    "id": "deal-flipp-112",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Wonder Bread, Bagels, English Muffins or Tastykake Donuts",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "bakery",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "bread"
+    ]
+  },
+  {
+    "id": "deal-flipp-113",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "RED BARON FRENCH BREAD PIZZA",
@@ -2008,7 +2045,7 @@
     ]
   },
   {
-    "id": "deal-flipp-112",
+    "id": "deal-flipp-114",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "KRASDALE VEGETABLES",
@@ -2026,7 +2063,7 @@
     ]
   },
   {
-    "id": "deal-flipp-113",
+    "id": "deal-flipp-115",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE VEGETABLES",
@@ -2044,7 +2081,7 @@
     ]
   },
   {
-    "id": "deal-flipp-114",
+    "id": "deal-flipp-116",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "PICTSWEET VEGETABLES",
@@ -2062,7 +2099,7 @@
     ]
   },
   {
-    "id": "deal-flipp-115",
+    "id": "deal-flipp-117",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "LIBBY'S MIXED VEGETABLES",
@@ -2080,7 +2117,7 @@
     ]
   },
   {
-    "id": "deal-flipp-116",
+    "id": "deal-flipp-118",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "LIBBY'S MIXED VEGETABLES",
@@ -2098,7 +2135,7 @@
     ]
   },
   {
-    "id": "deal-flipp-117",
+    "id": "deal-flipp-119",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Earth Grown Indian Veggie Meal",
@@ -2114,23 +2151,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-118",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GREEN GIANT CUT VEGGIES",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-119",
+    "id": "deal-flipp-120",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "GREEN GIANT CUT VEGGIES",
@@ -2139,22 +2160,6 @@
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-120",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "PROGRESSO VEGETABLE CLASSICS SOUPS",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
@@ -2163,6 +2168,22 @@
   },
   {
     "id": "deal-flipp-121",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GREEN GIANT CUT VEGGIES",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-122",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "PROGRESSO VEGETABLE CLASSICS SOUPS",
@@ -2178,7 +2199,23 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-122",
+    "id": "deal-flipp-123",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "PROGRESSO VEGETABLE CLASSICS SOUPS",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "produce",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-124",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "BIRDS EYE STEAMFRESH VEGETABLES FAMILY SIZE",
@@ -2196,7 +2233,7 @@
     ]
   },
   {
-    "id": "deal-flipp-123",
+    "id": "deal-flipp-125",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "GREEN GIANT SIMPLY STEAM VEGETABLES",
@@ -2214,7 +2251,7 @@
     ]
   },
   {
-    "id": "deal-flipp-124",
+    "id": "deal-flipp-126",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "WYMAN'S FRUIT",
@@ -2232,7 +2269,7 @@
     ]
   },
   {
-    "id": "deal-flipp-125",
+    "id": "deal-flipp-127",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Wyman's Fruit",
@@ -2250,7 +2287,7 @@
     ]
   },
   {
-    "id": "deal-flipp-126",
+    "id": "deal-flipp-128",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ZESPRI SUNGOLD KIWI",
@@ -2266,7 +2303,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-127",
+    "id": "deal-flipp-129",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "DOLE FRUIT BOWLS",
@@ -2284,7 +2321,7 @@
     ]
   },
   {
-    "id": "deal-flipp-128",
+    "id": "deal-flipp-130",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "DOLE FRUIT BOWLS",
@@ -2302,7 +2339,7 @@
     ]
   },
   {
-    "id": "deal-flipp-129",
+    "id": "deal-flipp-131",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "TRU FRU CHOCOLATE COVERED FRUIT",
@@ -2320,7 +2357,7 @@
     ]
   },
   {
-    "id": "deal-flipp-130",
+    "id": "deal-flipp-132",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ISLAND WAY CHOCOLATE COVERED FRUIT",
@@ -2338,7 +2375,7 @@
     ]
   },
   {
-    "id": "deal-flipp-131",
+    "id": "deal-flipp-133",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Kellogg's Cereals",
@@ -2356,7 +2393,7 @@
     ]
   },
   {
-    "id": "deal-flipp-132",
+    "id": "deal-flipp-134",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "General Mills Cereals",
@@ -2374,25 +2411,7 @@
     ]
   },
   {
-    "id": "deal-flipp-133",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
-    "title": "General Mills Boo Berry, Count Chocula, or Franken Berry Cereals",
-    "description": "",
-    "price": 4,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-13T03:59:59+00:00",
-    "tags": [
-      "cereal"
-    ]
-  },
-  {
-    "id": "deal-flipp-134",
+    "id": "deal-flipp-135",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Post Cereals",
@@ -2410,7 +2429,25 @@
     ]
   },
   {
-    "id": "deal-flipp-135",
+    "id": "deal-flipp-136",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "General Mills Boo Berry, Count Chocula, or Franken Berry Cereals",
+    "description": "",
+    "price": 4,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "produce",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-13T03:59:59+00:00",
+    "tags": [
+      "cereal"
+    ]
+  },
+  {
+    "id": "deal-flipp-137",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "QUAKER, CAP'N CRUNCH CEREAL, LIFE CEREAL",
@@ -2428,7 +2465,7 @@
     ]
   },
   {
-    "id": "deal-flipp-136",
+    "id": "deal-flipp-138",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "General Mills Cereal Cup",
@@ -2446,7 +2483,7 @@
     ]
   },
   {
-    "id": "deal-flipp-137",
+    "id": "deal-flipp-139",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Kellogg's Cereal",
@@ -2464,7 +2501,25 @@
     ]
   },
   {
-    "id": "deal-flipp-138",
+    "id": "deal-flipp-140",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "General Mills, Post, Quaker, or Kellogg's Cereal Cups",
+    "description": "",
+    "price": 1,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": [
+      "cereal"
+    ]
+  },
+  {
+    "id": "deal-flipp-141",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "POST PEBBLES CEREAL 11 Oz. Box",
@@ -2482,7 +2537,7 @@
     ]
   },
   {
-    "id": "deal-flipp-139",
+    "id": "deal-flipp-142",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "POST PEBBLES CEREAL",
@@ -2500,7 +2555,7 @@
     ]
   },
   {
-    "id": "deal-flipp-140",
+    "id": "deal-flipp-143",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "General Mills Large Size Cereal",
@@ -2518,7 +2573,7 @@
     ]
   },
   {
-    "id": "deal-flipp-141",
+    "id": "deal-flipp-144",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "QUAKER CAP'N CRUNCH Cinnamon or Original, LIFE CEREAL 18 Oz. Box",
@@ -2536,7 +2591,7 @@
     ]
   },
   {
-    "id": "deal-flipp-142",
+    "id": "deal-flipp-145",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "PLANTERS COCKTAIL PEANUTS, 16 Oz. Can",
@@ -2552,7 +2607,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-143",
+    "id": "deal-flipp-146",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "CENTO TOMATOES 28 Oz. Can or MARINATED ARTICHOKE 6 Oz. Jar",
@@ -2570,7 +2625,7 @@
     ]
   },
   {
-    "id": "deal-flipp-144",
+    "id": "deal-flipp-147",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select Eggo frozen waffles, pancakes & French toast sticks",
@@ -2588,25 +2643,7 @@
     ]
   },
   {
-    "id": "deal-flipp-145",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Disney Frozen Elsa fashion doll with Icy Creations play set",
-    "description": "",
-    "price": 26.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "frozen",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-04T04:00:00+00:00",
-    "validTo": "2026-10-11T03:59:59+00:00",
-    "tags": [
-      "frozen"
-    ]
-  },
-  {
-    "id": "deal-flipp-146",
+    "id": "deal-flipp-148",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Turkey Hill Ice Cream or Frozen Dairy Dessert",
@@ -2624,7 +2661,7 @@
     ]
   },
   {
-    "id": "deal-flipp-147",
+    "id": "deal-flipp-149",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Yasso Frozen Greek Yogurt or Bars",
@@ -2642,7 +2679,41 @@
     ]
   },
   {
-    "id": "deal-flipp-148",
+    "id": "deal-flipp-150",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Disney Frozen Elsa fashion doll with Icy Creations play set",
+    "description": "",
+    "price": 26.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "frozen",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-04T04:00:00+00:00",
+    "validTo": "2026-10-11T03:59:59+00:00",
+    "tags": [
+      "frozen"
+    ]
+  },
+  {
+    "id": "deal-flipp-151",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Reese's Snack Size Shapes or Mars Halloween Variety Mix",
+    "description": "",
+    "price": 10,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "snacks",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-09-08T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-152",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Black Forest Fruit Flavored Snacks",
@@ -2661,23 +2732,7 @@
     ]
   },
   {
-    "id": "deal-flipp-149",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
-    "title": "Reese's Snack Size Shapes or Mars Halloween Variety Mix",
-    "description": "",
-    "price": 10,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-09-08T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-150",
+    "id": "deal-flipp-153",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Sale Select Frito-Lay Minis snacks",
@@ -2695,7 +2750,7 @@
     ]
   },
   {
-    "id": "deal-flipp-151",
+    "id": "deal-flipp-154",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select Harry Potter novelty candy",
@@ -2711,7 +2766,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-152",
+    "id": "deal-flipp-155",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select Good & Gather™ baby & toddler organic snacks & teething wafers",
@@ -2730,26 +2785,7 @@
     ]
   },
   {
-    "id": "deal-flipp-153",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "WELCH'S FRUIT SNACKS",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "fruit",
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-flipp-154",
+    "id": "deal-flipp-156",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "MRS. T'S SNACK PIEROGIES",
@@ -2765,7 +2801,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-155",
+    "id": "deal-flipp-157",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "Welch's FRUIT SNACKS",
@@ -2784,7 +2820,26 @@
     ]
   },
   {
-    "id": "deal-flipp-156",
+    "id": "deal-flipp-158",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "WELCH'S FRUIT SNACKS",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "produce",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "fruit",
+      "snacks"
+    ]
+  },
+  {
+    "id": "deal-flipp-159",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "Hostess SNACK CAKES",
@@ -2800,7 +2855,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-157",
+    "id": "deal-flipp-160",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "Jell-O Pudding Snacks",
@@ -2818,27 +2873,25 @@
     ]
   },
   {
-    "id": "deal-flipp-158",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "ANNIE'S ORGANIC FRUIT SNACKS",
-    "description": "",
-    "price": 5.49,
+    "id": "deal-flipp-161",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "FritoLay Party Size Snacks",
+    "description": "DIGITAL COUPON $4 OFF WHEN YOU BUY 2",
+    "price": 4.49,
     "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
+    "originalPrice": 6.49,
+    "category": "snacks",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
-      "organic",
-      "fruit",
       "snacks"
     ]
   },
   {
-    "id": "deal-flipp-159",
+    "id": "deal-flipp-162",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ANNIE'S ORGANIC FRUIT SNACKS",
@@ -2858,25 +2911,27 @@
     ]
   },
   {
-    "id": "deal-flipp-160",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "FritoLay Party Size Snacks",
-    "description": "DIGITAL COUPON $4 OFF WHEN YOU BUY 2",
-    "price": 4.49,
+    "id": "deal-flipp-163",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "ANNIE'S ORGANIC FRUIT SNACKS",
+    "description": "",
+    "price": 5.49,
     "unit": "each",
-    "originalPrice": 6.49,
-    "category": "snacks",
+    "originalPrice": null,
+    "category": "produce",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
+      "organic",
+      "fruit",
       "snacks"
     ]
   },
   {
-    "id": "deal-flipp-161",
+    "id": "deal-flipp-164",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Chester's, Baken-ets, Munchos, or Santitas Snacks",
@@ -2894,7 +2949,41 @@
     ]
   },
   {
-    "id": "deal-flipp-162",
+    "id": "deal-flipp-165",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Cheez‑It Crackers, Snap'd, Snack Mix, or Club Minis",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "snacks",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-166",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Land O Lakes Snack Pack Cheese Cubes",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-167",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "BETTY CROCKER, MOTT'S FRUIT SNACKS",
@@ -2913,25 +3002,7 @@
     ]
   },
   {
-    "id": "deal-flipp-163",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Land O Lakes Snack Pack Cheese Cubes",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-164",
+    "id": "deal-flipp-168",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "Betty Crocker or MOTT'S FRUIT SNACKS VALUE PACK",
@@ -2950,61 +3021,23 @@
     ]
   },
   {
-    "id": "deal-flipp-165",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "MAZOLA CORN OIL",
+    "id": "deal-flipp-169",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Reese's Snack Size Halloween Shapes",
     "description": "",
-    "price": 4.49,
+    "price": 12,
     "unit": "each",
     "originalPrice": null,
-    "category": "pantry",
+    "category": "snacks",
     "type": "weekly-flyer",
     "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "oil"
-    ]
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": []
   },
   {
-    "id": "deal-flipp-166",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "MAZOLA CORN OIL",
-    "description": "",
-    "price": 4.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "oil"
-    ]
-  },
-  {
-    "id": "deal-flipp-167",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Orville Redenbacher's Microwave Popcorn or Oil",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "oil"
-    ]
-  },
-  {
-    "id": "deal-flipp-168",
+    "id": "deal-flipp-170",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE CORN OIL",
@@ -3022,7 +3055,61 @@
     ]
   },
   {
-    "id": "deal-flipp-169",
+    "id": "deal-flipp-171",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "MAZOLA CORN OIL",
+    "description": "",
+    "price": 4.49,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "oil"
+    ]
+  },
+  {
+    "id": "deal-flipp-172",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "MAZOLA CORN OIL",
+    "description": "",
+    "price": 4.49,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "oil"
+    ]
+  },
+  {
+    "id": "deal-flipp-173",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Orville Redenbacher's Microwave Popcorn or Oil",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "oil"
+    ]
+  },
+  {
+    "id": "deal-flipp-174",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "WESSON CANOLA OIL",
@@ -3040,7 +3127,7 @@
     ]
   },
   {
-    "id": "deal-flipp-170",
+    "id": "deal-flipp-175",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE EXTRA VIRGIN OLIVE OIL BLEND",
@@ -3058,7 +3145,7 @@
     ]
   },
   {
-    "id": "deal-flipp-171",
+    "id": "deal-flipp-176",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Beans",
@@ -3076,104 +3163,12 @@
     ]
   },
   {
-    "id": "deal-flipp-172",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GREEN VALLEY ORGANIC BEANS",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans",
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-flipp-173",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "GREEN VALLEY ORGANIC BEANS",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans",
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-flipp-174",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "GOYA BEANS",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans"
-    ]
-  },
-  {
-    "id": "deal-flipp-175",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GOYA BEANS",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans"
-    ]
-  },
-  {
-    "id": "deal-flipp-176",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "PROGRESSO BEANS",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans"
-    ]
-  },
-  {
     "id": "deal-flipp-177",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "PROGRESSO BEANS",
+    "title": "GREEN VALLEY ORGANIC BEANS",
     "description": "",
-    "price": 5,
+    "price": 1.99,
     "unit": "each",
     "originalPrice": null,
     "category": "canned",
@@ -3182,11 +3177,103 @@
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
-      "beans"
+      "beans",
+      "organic"
     ]
   },
   {
     "id": "deal-flipp-178",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GREEN VALLEY ORGANIC BEANS",
+    "description": "",
+    "price": 1.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans",
+      "organic"
+    ]
+  },
+  {
+    "id": "deal-flipp-179",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "GOYA BEANS",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans"
+    ]
+  },
+  {
+    "id": "deal-flipp-180",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "PROGRESSO BEANS",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans"
+    ]
+  },
+  {
+    "id": "deal-flipp-181",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GOYA BEANS",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans"
+    ]
+  },
+  {
+    "id": "deal-flipp-182",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "PROGRESSO BEANS",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans"
+    ]
+  },
+  {
+    "id": "deal-flipp-183",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Pueblo Lindo Black Beans",
@@ -3204,25 +3291,7 @@
     ]
   },
   {
-    "id": "deal-flipp-179",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BUSH'S BEST BAKED BEANS",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "beans"
-    ]
-  },
-  {
-    "id": "deal-flipp-180",
+    "id": "deal-flipp-184",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BUSH'S BEST BAKED BEANS",
@@ -3240,7 +3309,25 @@
     ]
   },
   {
-    "id": "deal-flipp-181",
+    "id": "deal-flipp-185",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BUSH'S BEST BAKED BEANS",
+    "description": "",
+    "price": 2.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "beans"
+    ]
+  },
+  {
+    "id": "deal-flipp-186",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Chestnut Hill Colby Jack or Sharp Cheddar Cheese Blocks",
@@ -3253,96 +3340,6 @@
     "source": "flipp",
     "validFrom": "2026-09-08T04:00:00+00:00",
     "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-182",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "KRAFT ASSORTED CHEESES, CRACKER BARREL CHEDDAR CHEESE",
-    "description": "",
-    "price": 6,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-183",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "CABOT CHEESE",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-184",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Stop & Shop Shredded Cheese",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-185",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "ALPINE LACE SWISS CHEESE",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-186",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Galbani Ricotta or Mozzarella Cheese",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
       "cheese"
     ]
@@ -3367,114 +3364,6 @@
   },
   {
     "id": "deal-flipp-188",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "FRIGO CHEESE HEADS",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-189",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Galbani String Cheese",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-190",
-    "storeId": "aldi-downtown",
-    "storeName": "ALDI",
-    "title": "Emporium Selection Shredded Parmesan Cheese Cup",
-    "description": "",
-    "price": 2.65,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-07T04:00:00+00:00",
-    "validTo": "2026-10-14T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-191",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BORDEN ASSORTED CHEESES",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-192",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "SCHREIBER STRING CHEESE",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-193",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "YANCEY'S FANCY CHEESE",
-    "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-194",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "GALBANI MOZZARELLA CHEESE",
@@ -3492,12 +3381,120 @@
     ]
   },
   {
-    "id": "deal-flipp-195",
+    "id": "deal-flipp-189",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "KRAFT GRATED PARMESAN CHEESE",
+    "title": "KRAFT ASSORTED CHEESES, CRACKER BARREL CHEDDAR CHEESE",
     "description": "",
-    "price": 4.99,
+    "price": 6,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-190",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "CABOT CHEESE",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-191",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "ALPINE LACE SWISS CHEESE",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-192",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Galbani Ricotta or Mozzarella Cheese",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-193",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Stop & Shop Shredded Cheese",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-194",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Galbani String Cheese",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-195",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "FRIGO CHEESE HEADS",
+    "description": "",
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -3511,18 +3508,18 @@
   },
   {
     "id": "deal-flipp-196",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GREAT LAKES SWISS CHEESE",
+    "storeId": "aldi-downtown",
+    "storeName": "ALDI",
+    "title": "Emporium Selection Shredded Parmesan Cheese Cup",
     "description": "",
-    "price": 4.99,
-    "unit": "per lb",
+    "price": 2.65,
+    "unit": "each",
     "originalPrice": null,
     "category": "dairy",
     "type": "weekly-flyer",
     "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
+    "validFrom": "2026-10-07T04:00:00+00:00",
+    "validTo": "2026-10-14T03:59:59+00:00",
     "tags": [
       "cheese"
     ]
@@ -3531,7 +3528,7 @@
     "id": "deal-flipp-197",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "KRASDALE SLICED MUENSTER CHEESE",
+    "title": "BORDEN ASSORTED CHEESES",
     "description": "",
     "price": 5,
     "unit": "each",
@@ -3549,6 +3546,96 @@
     "id": "deal-flipp-198",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
+    "title": "SCHREIBER STRING CHEESE",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-199",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "YANCEY'S FANCY CHEESE",
+    "description": "",
+    "price": 5.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-200",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "KRAFT GRATED PARMESAN CHEESE",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-201",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GREAT LAKES SWISS CHEESE",
+    "description": "",
+    "price": 4.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-202",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KRASDALE SLICED MUENSTER CHEESE",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-203",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "LOCATELLI GRATED ROMANO CHEESE",
     "description": "",
     "price": 9.99,
@@ -3564,61 +3651,7 @@
     ]
   },
   {
-    "id": "deal-flipp-199",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Land O Lakes American Cheese",
-    "description": "",
-    "price": 5.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-200",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BOAR'S HEAD MUENSTER CHEESE",
-    "description": "",
-    "price": 6.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-201",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "BOAR'S HEAD AMERICAN CHEESE",
-    "description": "",
-    "price": 5.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-202",
+    "id": "deal-flipp-204",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "LAND O LAKES AMERICAN CHEESE",
@@ -3636,49 +3669,13 @@
     ]
   },
   {
-    "id": "deal-flipp-203",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "PHILADELPHIA LACTOSE FREE CREAM CHEESE",
-    "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-204",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "FOOD CLUB CREAM CHEESE SPREAD",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
     "id": "deal-flipp-205",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "FOOD CLUB SOFT CREAM CHEESE",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Land O Lakes American Cheese",
     "description": "",
-    "price": 5,
-    "unit": "each",
+    "price": 5.99,
+    "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
     "type": "weekly-flyer",
@@ -3691,6 +3688,42 @@
   },
   {
     "id": "deal-flipp-206",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "BOAR'S HEAD AMERICAN CHEESE",
+    "description": "",
+    "price": 5.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-207",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BOAR'S HEAD MUENSTER CHEESE",
+    "description": "",
+    "price": 6.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-208",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "YOPLAIT YOGURT",
@@ -3706,7 +3739,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-207",
+    "id": "deal-flipp-209",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "NOOSA YOGURT",
@@ -3722,7 +3755,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-208",
+    "id": "deal-flipp-210",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Activia, Danimals Smoothie or Yo Crunch Yogurt",
@@ -3738,7 +3771,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-209",
+    "id": "deal-flipp-211",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "STONYFIELD ORGANIC YOGURT",
@@ -3756,7 +3789,7 @@
     ]
   },
   {
-    "id": "deal-flipp-210",
+    "id": "deal-flipp-212",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Fage Total Yogurt",
@@ -3772,7 +3805,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-211",
+    "id": "deal-flipp-213",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "CHOBANI GREEK YOGURT",
@@ -3788,23 +3821,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-212",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Dannon Greek or Too Good Yogurt Multipack",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-213",
+    "id": "deal-flipp-214",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "STONYFIELD ORGANIC YOGURT 6 Pk. 4 Oz. Cups",
@@ -3822,30 +3839,12 @@
     ]
   },
   {
-    "id": "deal-flipp-214",
+    "id": "deal-flipp-215",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Fage BestSelf 0% Milkfat Plain Yogurt",
+    "title": "Dannon Greek or Too Good Yogurt Multipack",
     "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "milk"
-    ]
-  },
-  {
-    "id": "deal-flipp-215",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "FAGE TOTAL PLAIN GREEK YOGURT",
-    "description": "",
-    "price": 6.49,
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -3875,11 +3874,27 @@
   },
   {
     "id": "deal-flipp-217",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "FAGE TOTAL PLAIN GREEK YOGURT",
+    "description": "",
+    "price": 6.49,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-218",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Kerrygold Butter",
+    "title": "Fage BestSelf 0% Milkfat Plain Yogurt",
     "description": "",
-    "price": 3.99,
+    "price": 5.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -3888,11 +3903,11 @@
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
     "tags": [
-      "butter"
+      "milk"
     ]
   },
   {
-    "id": "deal-flipp-218",
+    "id": "deal-flipp-219",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BREAKSTONE'S BUTTER",
@@ -3910,30 +3925,12 @@
     ]
   },
   {
-    "id": "deal-flipp-219",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "PRESIDENT BUTTER 7 Oz. Brick",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "butter"
-    ]
-  },
-  {
     "id": "deal-flipp-220",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KELLER'S OR HOTEL BAR WHIPPED BUTTER",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Kerrygold Butter",
     "description": "",
-    "price": 6,
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -3965,6 +3962,24 @@
   },
   {
     "id": "deal-flipp-222",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "PRESIDENT BUTTER 7 Oz. Brick",
+    "description": "",
+    "price": 2.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "butter"
+    ]
+  },
+  {
+    "id": "deal-flipp-223",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "LAND O LAKES BUTTER",
@@ -3982,7 +3997,25 @@
     ]
   },
   {
-    "id": "deal-flipp-223",
+    "id": "deal-flipp-224",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KELLER'S OR HOTEL BAR WHIPPED BUTTER",
+    "description": "",
+    "price": 6,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "butter"
+    ]
+  },
+  {
+    "id": "deal-flipp-225",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Good 2 Grow Juices",
@@ -3998,7 +4031,23 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-224",
+    "id": "deal-flipp-226",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "TROPICANA PURE PREMIUM ORANGE JUICE",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-227",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Apple Juice",
@@ -4016,7 +4065,7 @@
     ]
   },
   {
-    "id": "deal-flipp-225",
+    "id": "deal-flipp-228",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE PINEAPPLE JUICE",
@@ -4034,7 +4083,7 @@
     ]
   },
   {
-    "id": "deal-flipp-226",
+    "id": "deal-flipp-229",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Tropicana Orange Juice",
@@ -4050,7 +4099,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-227",
+    "id": "deal-flipp-230",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "KRASDALE PINEAPPLE JUICE",
@@ -4068,92 +4117,7 @@
     ]
   },
   {
-    "id": "deal-flipp-228",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KRASDALE ORANGE JUICE",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-229",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Apple & Eve Juice",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "apple"
-    ]
-  },
-  {
-    "id": "deal-flipp-230",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "FLORIDA'S NATURAL PREMIUM ORANGE JUICE",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
     "id": "deal-flipp-231",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "TROPICANA PURE PREMIUM ORANGE JUICE",
-    "description": "",
-    "price": 4,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-232",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "APPLE & EVE ORGANIC APPLE JUICE",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "apple",
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-flipp-233",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "APPLE & EVE ORGANICS APPLE JUICE",
@@ -4172,12 +4136,12 @@
     ]
   },
   {
-    "id": "deal-flipp-234",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "OCEAN SPRAY 100% JUICE",
+    "id": "deal-flipp-232",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "FLORIDA'S NATURAL PREMIUM ORANGE JUICE",
     "description": "",
-    "price": 7,
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "beverages",
@@ -4188,7 +4152,76 @@
     "tags": []
   },
   {
+    "id": "deal-flipp-233",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "TROPICANA PURE PREMIUM ORANGE JUICE",
+    "description": "",
+    "price": 4,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-234",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "APPLE & EVE ORGANIC APPLE JUICE",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "produce",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "apple",
+      "organic"
+    ]
+  },
+  {
     "id": "deal-flipp-235",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KRASDALE ORANGE JUICE",
+    "description": "",
+    "price": 6.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "beverages",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-236",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Apple & Eve Juice",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "produce",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "apple"
+    ]
+  },
+  {
+    "id": "deal-flipp-237",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "OCEAN SPRAY 100% JUICE",
@@ -4204,7 +4237,23 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-236",
+    "id": "deal-flipp-238",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "OCEAN SPRAY 100% JUICE",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "beverages",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-239",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "APPLE & EVE APPLE JUICE",
@@ -4222,7 +4271,7 @@
     ]
   },
   {
-    "id": "deal-flipp-237",
+    "id": "deal-flipp-240",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "APPLE & EVE 100% ORGANICS JUICE",
@@ -4241,7 +4290,7 @@
     ]
   },
   {
-    "id": "deal-flipp-238",
+    "id": "deal-flipp-241",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "APPLE & EVE 100% ORGANIC JUICE",
@@ -4260,7 +4309,7 @@
     ]
   },
   {
-    "id": "deal-flipp-239",
+    "id": "deal-flipp-242",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "TREE RIPE PREMIUM ORANGE JUICE",
@@ -4276,58 +4325,10 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-240",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "TROPICANA PURE PREMIUM ORANGE JUICE",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-241",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "TREE RIPE PREMIUM ORANGE JUICE",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-242",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "KRASDALE PREMIUM INSTANT COFFEE",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
     "id": "deal-flipp-243",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "KRASDALE PREMIUM INSTANT COFFEE",
+    "title": "TREE RIPE PREMIUM ORANGE JUICE",
     "description": "",
     "price": 4.99,
     "unit": "each",
@@ -4343,6 +4344,38 @@
     "id": "deal-flipp-244",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
+    "title": "KRASDALE PREMIUM INSTANT COFFEE",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "beverages",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-245",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "KRASDALE PREMIUM INSTANT COFFEE",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "beverages",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-246",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "•FOLGER COFFEE •CAFE PILON",
     "description": "",
     "price": 6.99,
@@ -4356,7 +4389,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-245",
+    "id": "deal-flipp-247",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "STARBUCKS GROUND COFFEE",
@@ -4372,7 +4405,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-246",
+    "id": "deal-flipp-248",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "CHOCK FULL O' NUTS COFFEE",
@@ -4388,7 +4421,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-247",
+    "id": "deal-flipp-249",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "NEW ENGLAND GROUND COFFEE",
@@ -4404,7 +4437,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-248",
+    "id": "deal-flipp-250",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "NESCAFÉ TASTER'S CHOICE INSTANT COFFEE",
@@ -4420,7 +4453,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-249",
+    "id": "deal-flipp-251",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "NESCAFÉ TASTER'S CHOICE INSTANT DECAF COFFEE",
@@ -4436,7 +4469,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-250",
+    "id": "deal-flipp-252",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "STARBUCKS ICED COFFEE",
@@ -4452,55 +4485,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-251",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
-    "title": "Progresso Soups",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-04T04:00:00+00:00",
-    "validTo": "2026-10-13T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-252",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
-    "title": "Campbell's Soups",
-    "description": "",
-    "price": 4,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-04T04:00:00+00:00",
-    "validTo": "2026-10-13T03:59:59+00:00",
-    "tags": []
-  },
-  {
     "id": "deal-flipp-253",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
-    "title": "Campbell's Chunky Soups",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-13T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-254",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Maruchan Ramen Noodle Soups",
@@ -4516,7 +4501,55 @@
     "tags": []
   },
   {
+    "id": "deal-flipp-254",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Progresso Soups",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-04T04:00:00+00:00",
+    "validTo": "2026-10-13T03:59:59+00:00",
+    "tags": []
+  },
+  {
     "id": "deal-flipp-255",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Campbell's Soups",
+    "description": "",
+    "price": 4,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-04T04:00:00+00:00",
+    "validTo": "2026-10-13T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-256",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Campbell's Chunky Soups",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-13T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-257",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Progresso Soup",
@@ -4530,40 +4563,6 @@
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
     "tags": []
-  },
-  {
-    "id": "deal-flipp-256",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Nature's Promise Soup",
-    "description": "",
-    "price": 4.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-257",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Pacific Organic Soup",
-    "description": "",
-    "price": 6,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-09T04:00:00+00:00",
-    "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "organic"
-    ]
   },
   {
     "id": "deal-flipp-258",
@@ -4585,6 +4584,24 @@
     "id": "deal-flipp-259",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
+    "title": "Pacific Organic Soup",
+    "description": "",
+    "price": 6,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "organic"
+    ]
+  },
+  {
+    "id": "deal-flipp-260",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
     "title": "Campbell's Protein Soup",
     "description": "",
     "price": 6,
@@ -4598,25 +4615,39 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-260",
+    "id": "deal-flipp-261",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Pacific Organic Creamy Soup",
+    "title": "Nature's Promise Soup",
     "description": "",
-    "price": 3.99,
+    "price": 4.49,
     "unit": "each",
     "originalPrice": null,
-    "category": "dairy",
+    "category": "canned",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-09T04:00:00+00:00",
     "validTo": "2026-10-16T03:59:59+00:00",
-    "tags": [
-      "organic"
-    ]
+    "tags": []
   },
   {
-    "id": "deal-flipp-261",
+    "id": "deal-flipp-262",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Old El Paso Soups",
+    "description": "",
+    "price": 10,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-13T04:00:00+00:00",
+    "validTo": "2026-10-18T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-263",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Pacific Organic Condensed Soup",
@@ -4634,7 +4665,25 @@
     ]
   },
   {
-    "id": "deal-flipp-262",
+    "id": "deal-flipp-264",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Pacific Organic Creamy Soup",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-09T04:00:00+00:00",
+    "validTo": "2026-10-16T03:59:59+00:00",
+    "tags": [
+      "organic"
+    ]
+  },
+  {
+    "id": "deal-flipp-265",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Rachael Ray Nutrish Soup Bones",
@@ -4650,7 +4699,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-263",
+    "id": "deal-flipp-266",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Bumble Bee Chunk White Tuna Pouch",
@@ -4666,7 +4715,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-264",
+    "id": "deal-flipp-267",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Jumbo Raw Shrimp",
@@ -4682,7 +4731,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-265",
+    "id": "deal-flipp-268",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Margaritaville Shrimp",
@@ -4698,7 +4747,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-266",
+    "id": "deal-flipp-269",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Fremont Fish Market Tempura Shrimp",
