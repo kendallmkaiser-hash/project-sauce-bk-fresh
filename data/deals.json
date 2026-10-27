@@ -39,9 +39,9 @@
     "id": "deal-flipp-3",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Tyson Breaded or Grilled Chicken",
+    "title": "Bone-In Chicken Wing Tray",
     "description": "SALE",
-    "price": 8.99,
+    "price": 10.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -50,8 +50,7 @@
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
-      "chicken",
-      "bread"
+      "chicken"
     ]
   },
   {
@@ -76,9 +75,9 @@
     "id": "deal-flipp-5",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Bone-In Chicken Wing Tray",
+    "title": "Tyson Breaded or Grilled Chicken",
     "description": "SALE",
-    "price": 10.99,
+    "price": 8.99,
     "unit": "each",
     "originalPrice": null,
     "category": "meat",
@@ -87,7 +86,8 @@
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
-      "chicken"
+      "chicken",
+      "bread"
     ]
   },
   {
@@ -128,6 +128,24 @@
   },
   {
     "id": "deal-flipp-8",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "WHOLE CHICKEN LEGS",
+    "description": "",
+    "price": 3.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "deal-flipp-9",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Fresh Organic Whole Chicken",
@@ -143,24 +161,6 @@
     "tags": [
       "chicken",
       "organic"
-    ]
-  },
-  {
-    "id": "deal-flipp-9",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "WHOLE CHICKEN LEGS",
-    "description": "",
-    "price": 3.99,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "chicken"
     ]
   },
   {
@@ -219,8 +219,8 @@
   },
   {
     "id": "deal-flipp-13",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "CHICKEN TENDERS",
     "description": "",
     "price": 8.99,
@@ -255,8 +255,8 @@
   },
   {
     "id": "deal-flipp-15",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "CHICKEN TENDERS",
     "description": "",
     "price": 8.99,
@@ -567,24 +567,6 @@
     "id": "deal-flipp-32",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "YUMMY CHICKEN NUGGETS",
-    "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-flipp-33",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
     "title": "AMYLU CHICKEN SAUSAGES",
     "description": "",
     "price": 5.99,
@@ -600,9 +582,27 @@
     ]
   },
   {
-    "id": "deal-flipp-34",
+    "id": "deal-flipp-33",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
+    "title": "YUMMY CHICKEN NUGGETS",
+    "description": "",
+    "price": 5.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "chicken"
+    ]
+  },
+  {
+    "id": "deal-flipp-34",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "AMYLU CHICKEN SAUSAGES",
     "description": "",
     "price": 5.99,
@@ -766,8 +766,8 @@
   },
   {
     "id": "deal-flipp-43",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "SABRETT BEEF COCKTAIL FRANKS",
     "description": "",
     "price": 5.99,
@@ -784,8 +784,8 @@
   },
   {
     "id": "deal-flipp-44",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "SABRETT BEEF COCKTAIL FRANKS",
     "description": "",
     "price": 5.99,
@@ -911,9 +911,9 @@
   },
   {
     "id": "deal-flipp-51",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "ORGANIC GROUND BEEF",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GROUND KOBE BEEF",
     "description": "",
     "price": 9.99,
     "unit": "each",
@@ -924,15 +924,14 @@
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
-      "beef",
-      "organic"
+      "beef"
     ]
   },
   {
     "id": "deal-flipp-52",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "GROUND KOBE BEEF",
+    "title": "BRISKET BEEF BURGERS",
     "description": "",
     "price": 9.99,
     "unit": "each",
@@ -966,42 +965,6 @@
   },
   {
     "id": "deal-flipp-54",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BRISKET BEEF BURGERS",
-    "description": "",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-flipp-55",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GROUND KOBE BEEF",
-    "description": "",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-flipp-56",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ORGANIC GROUND BEEF",
@@ -1017,6 +980,43 @@
     "tags": [
       "beef",
       "organic"
+    ]
+  },
+  {
+    "id": "deal-flipp-55",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "ORGANIC GROUND BEEF",
+    "description": "",
+    "price": 9.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "beef",
+      "organic"
+    ]
+  },
+  {
+    "id": "deal-flipp-56",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "GROUND KOBE BEEF",
+    "description": "",
+    "price": 9.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "beef"
     ]
   },
   {
@@ -1059,7 +1059,7 @@
     "id": "deal-flipp-59",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "GODSHALL'S SLICED CURED BEEF BACON",
+    "title": "BOAR'S HEAD SKINLESS BEEF FRANKS",
     "description": "",
     "price": 7.99,
     "unit": "each",
@@ -1077,7 +1077,7 @@
     "id": "deal-flipp-60",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "BOAR'S HEAD SKINLESS BEEF FRANKS",
+    "title": "GODSHALL'S SLICED CURED BEEF BACON",
     "description": "",
     "price": 7.99,
     "unit": "each",
@@ -1129,8 +1129,8 @@
   },
   {
     "id": "deal-flipp-63",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "PULLED BEEF ENTREES",
     "description": "",
     "price": 12.99,
@@ -1147,8 +1147,8 @@
   },
   {
     "id": "deal-flipp-64",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "PULLED BEEF ENTREES",
     "description": "",
     "price": 12.99,
@@ -1165,8 +1165,8 @@
   },
   {
     "id": "deal-flipp-65",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "LIBBY'S CORNED BEEF",
     "description": "",
     "price": 5.99,
@@ -1183,8 +1183,8 @@
   },
   {
     "id": "deal-flipp-66",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "LIBBY'S CORNED BEEF",
     "description": "",
     "price": 5.99,
@@ -1219,24 +1219,6 @@
   },
   {
     "id": "deal-flipp-68",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "CENTER CUT PORK CHOPS",
-    "description": "",
-    "price": 2.39,
-    "unit": "per lb",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "pork"
-    ]
-  },
-  {
-    "id": "deal-flipp-69",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "SLICED PORK BUTT",
@@ -1254,7 +1236,7 @@
     ]
   },
   {
-    "id": "deal-flipp-70",
+    "id": "deal-flipp-69",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Smithfield Fresh St. Louis Pork Ribs",
@@ -1272,7 +1254,7 @@
     ]
   },
   {
-    "id": "deal-flipp-71",
+    "id": "deal-flipp-70",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Fresh Boneless Half Pork Butt Roast",
@@ -1285,6 +1267,24 @@
     "source": "flipp",
     "validFrom": "2026-10-21T04:00:00+00:00",
     "validTo": "2026-10-28T03:59:59+00:00",
+    "tags": [
+      "pork"
+    ]
+  },
+  {
+    "id": "deal-flipp-71",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "CENTER CUT PORK CHOPS",
+    "description": "",
+    "price": 2.39,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "meat",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
       "pork"
     ]
@@ -1454,8 +1454,8 @@
   },
   {
     "id": "deal-flipp-81",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "SMOKED PORK SPARE RIBS",
     "description": "",
     "price": 7.99,
@@ -1472,8 +1472,8 @@
   },
   {
     "id": "deal-flipp-82",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "SMOKED PORK SPARE RIBS",
     "description": "",
     "price": 7.99,
@@ -1583,8 +1583,8 @@
   },
   {
     "id": "deal-flipp-88",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "MI RANCHO SMOKEHOUSE SMOKED BONELESS PORK CHOPS",
     "description": "",
     "price": 7.99,
@@ -1601,8 +1601,8 @@
   },
   {
     "id": "deal-flipp-89",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "MI RANCHO SMOKEHOUSE SMOKED BONELESS PORK CHOPS",
     "description": "",
     "price": 7.99,
@@ -1659,9 +1659,9 @@
     "id": "deal-flipp-92",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "CAROLINA • RICE • BROWN RICE",
+    "title": "CAROLINA BASMATI RICE",
     "description": "",
-    "price": 3,
+    "price": 4.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1677,9 +1677,9 @@
     "id": "deal-flipp-93",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "CAROLINA BASMATI RICE",
+    "title": "CAROLINA • RICE • BROWN RICE",
     "description": "",
-    "price": 4.99,
+    "price": 3,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1749,28 +1749,9 @@
     "id": "deal-flipp-97",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "BEN'S ORIGINAL READY RICE CHEESE RISOTTO",
+    "title": "KRASDALE RICE",
     "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "rice",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-98",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BEN'S ORIGINAL READY RICE RISOTTO",
-    "description": "",
-    "price": 3.49,
+    "price": 9.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -1783,7 +1764,7 @@
     ]
   },
   {
-    "id": "deal-flipp-99",
+    "id": "deal-flipp-98",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "GOYA CANILLA RICE",
@@ -1801,21 +1782,40 @@
     ]
   },
   {
-    "id": "deal-flipp-100",
+    "id": "deal-flipp-99",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "Long Grain GOYA CANILLA RICE",
+    "title": "BEN'S ORIGINAL READY RICE RISOTTO",
     "description": "",
-    "price": 4.49,
+    "price": 3.49,
     "unit": "each",
     "originalPrice": null,
-    "category": "canned",
+    "category": "pantry",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
       "rice"
+    ]
+  },
+  {
+    "id": "deal-flipp-100",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "BEN'S ORIGINAL READY RICE CHEESE RISOTTO",
+    "description": "",
+    "price": 3.49,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "rice",
+      "cheese"
     ]
   },
   {
@@ -1838,24 +1838,6 @@
   },
   {
     "id": "deal-flipp-102",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Vigo Yellow Rice",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-flipp-103",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "CAROLINA BASMATI RICE",
@@ -1873,15 +1855,33 @@
     ]
   },
   {
-    "id": "deal-flipp-104",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "KRASDALE RICE",
+    "id": "deal-flipp-103",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Vigo Yellow Rice",
     "description": "",
-    "price": 9.99,
+    "price": 5,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "rice"
+    ]
+  },
+  {
+    "id": "deal-flipp-104",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "Long Grain GOYA CANILLA RICE",
+    "description": "",
+    "price": 4.49,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-23T04:00:00+00:00",
@@ -1966,6 +1966,24 @@
     "id": "deal-flipp-109",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
+    "title": "Stop & Shop Pasta",
+    "description": "",
+    "price": 0.88,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "pantry",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "pasta"
+    ]
+  },
+  {
+    "id": "deal-flipp-110",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
     "title": "Celentano Pasta",
     "description": "SAVE $5 when you spend $20 on participating items",
     "price": 7,
@@ -1981,7 +1999,7 @@
     ]
   },
   {
-    "id": "deal-flipp-110",
+    "id": "deal-flipp-111",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Mama Rosie's Pasta",
@@ -1999,7 +2017,7 @@
     ]
   },
   {
-    "id": "deal-flipp-111",
+    "id": "deal-flipp-112",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Rao's Pasta",
@@ -2017,7 +2035,7 @@
     ]
   },
   {
-    "id": "deal-flipp-112",
+    "id": "deal-flipp-113",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "RONZONI PASTA",
@@ -2035,27 +2053,9 @@
     ]
   },
   {
-    "id": "deal-flipp-113",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Stop & Shop Pasta",
-    "description": "",
-    "price": 0.88,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "pasta"
-    ]
-  },
-  {
     "id": "deal-flipp-114",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "BARILLA PROTEIN+ PASTA",
     "description": "",
     "price": 2.99,
@@ -2072,8 +2072,8 @@
   },
   {
     "id": "deal-flipp-115",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "BARILLA PROTEIN+ PASTA",
     "description": "",
     "price": 2.99,
@@ -2110,6 +2110,24 @@
     "id": "deal-flipp-117",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
+    "title": "NATURE'S YOKE FREE RANGE LARGE EGGS",
+    "description": "",
+    "price": 6.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "deal-flipp-118",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "NATURE'S YOKE ORGANIC FREE RANGE LARGE EGGS",
     "description": "",
     "price": 5.99,
@@ -2126,7 +2144,7 @@
     ]
   },
   {
-    "id": "deal-flipp-118",
+    "id": "deal-flipp-119",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "LAND O LAKES ALL NATURAL LARGE EGGS",
@@ -2144,7 +2162,7 @@
     ]
   },
   {
-    "id": "deal-flipp-119",
+    "id": "deal-flipp-120",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "NELLIE'S FREE RANGE HARD BOILED EGGS",
@@ -2160,24 +2178,6 @@
     "tags": [
       "eggs",
       "oil"
-    ]
-  },
-  {
-    "id": "deal-flipp-120",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "NATURE'S YOKE FREE RANGE LARGE EGGS",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "eggs"
     ]
   },
   {
@@ -2310,8 +2310,8 @@
   },
   {
     "id": "deal-flipp-128",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "KRASDALE SWEETENED CONDENSED MILK",
     "description": "",
     "price": 2.49,
@@ -2328,8 +2328,8 @@
   },
   {
     "id": "deal-flipp-129",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "KRASDALE SWEETENED CONDENSED MILK",
     "description": "",
     "price": 2.49,
@@ -2346,8 +2346,8 @@
   },
   {
     "id": "deal-flipp-130",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "KRASDALE EVAPORATED MILK",
     "description": "",
     "price": 5,
@@ -2364,8 +2364,8 @@
   },
   {
     "id": "deal-flipp-131",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "KRASDALE EVAPORATED MILK",
     "description": "",
     "price": 5,
@@ -2454,14 +2454,14 @@
   },
   {
     "id": "deal-flipp-136",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "SARA LEE CLASSIC 100% WHOLE WHEAT BREAD",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "OROWEAT, ARNOLD 100% STONEGROUND WHOLE WHEAT BREAD",
     "description": "",
     "price": 3.99,
     "unit": "each",
     "originalPrice": null,
-    "category": "bakery",
+    "category": "meat",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-23T04:00:00+00:00",
@@ -2472,8 +2472,8 @@
   },
   {
     "id": "deal-flipp-137",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "SARA LEE CLASSIC 100% WHOLE WHEAT BREAD",
     "description": "",
     "price": 3.99,
@@ -2492,12 +2492,12 @@
     "id": "deal-flipp-138",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "OROWEAT, ARNOLD 100% STONEGROUND WHOLE WHEAT BREAD",
+    "title": "SARA LEE CLASSIC 100% WHOLE WHEAT BREAD",
     "description": "",
     "price": 3.99,
     "unit": "each",
     "originalPrice": null,
-    "category": "meat",
+    "category": "bakery",
     "type": "weekly-flyer",
     "source": "flipp",
     "validFrom": "2026-10-23T04:00:00+00:00",
@@ -2598,8 +2598,8 @@
   },
   {
     "id": "deal-flipp-144",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "NATURE'S OWN HONEY WHEAT BREAD",
     "description": "",
     "price": 3.99,
@@ -2616,8 +2616,8 @@
   },
   {
     "id": "deal-flipp-145",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "NATURE'S OWN HONEY WHEAT BREAD",
     "description": "",
     "price": 3.99,
@@ -2825,8 +2825,8 @@
   },
   {
     "id": "deal-flipp-157",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "TERRA VEGETABLE CHIPS",
     "description": "",
     "price": 7,
@@ -2841,8 +2841,8 @@
   },
   {
     "id": "deal-flipp-158",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "TERRA VEGETABLE CHIPS",
     "description": "",
     "price": 7,
@@ -2925,6 +2925,22 @@
   },
   {
     "id": "deal-flipp-163",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Fresh 1-lb. strawberries",
+    "description": "SALE",
+    "price": 2.79,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "other",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-164",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "FRUIT RIOT! FROZEN FRUIT",
@@ -2941,22 +2957,6 @@
       "frozen",
       "fruit"
     ]
-  },
-  {
-    "id": "deal-flipp-164",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh 1-lb. strawberries",
-    "description": "SALE",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": []
   },
   {
     "id": "deal-flipp-165",
@@ -3086,11 +3086,11 @@
   },
   {
     "id": "deal-flipp-172",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KELLOGG'S SPECIAL K CEREAL",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Kellogg's Wednesday Cereal",
     "description": "",
-    "price": 4.99,
+    "price": 3.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -3122,11 +3122,11 @@
   },
   {
     "id": "deal-flipp-174",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Kellogg's Wednesday Cereal",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KELLOGG'S SPECIAL K CEREAL",
     "description": "",
-    "price": 3.99,
+    "price": 4.99,
     "unit": "each",
     "originalPrice": null,
     "category": "pantry",
@@ -3210,22 +3210,6 @@
   },
   {
     "id": "deal-flipp-179",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "PLANTERS CASHEW HALVES & PIECES 8 OZ. CAN",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-180",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select I Can Read! kids' paperback books",
@@ -3238,6 +3222,22 @@
     "source": "flipp",
     "validFrom": "2026-10-25T04:00:00+00:00",
     "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-180",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "PLANTERS CASHEW HALVES & PIECES 8 OZ. CAN",
+    "description": "",
+    "price": 6.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
     "tags": []
   },
   {
@@ -3437,6 +3437,40 @@
   },
   {
     "id": "deal-flipp-192",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Select Ritz, Wheat Thins, Chips Ahoy!, Oreo & Triscuit snacks",
+    "description": "Sale",
+    "price": 8,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "snacks",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": [
+      "snacks"
+    ]
+  },
+  {
+    "id": "deal-flipp-193",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Mars variety pack bulk Halloween candy",
+    "description": "",
+    "price": 19.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-194",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "SNACK PACK PUDDING",
@@ -3452,7 +3486,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-193",
+    "id": "deal-flipp-195",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Snack Sticks",
@@ -3468,23 +3502,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-194",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Select Albanese gummy bears & more trick-or-treat candy",
-    "description": "Sale",
-    "price": 8.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-195",
+    "id": "deal-flipp-196",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Nerds Gummy Clusters assorted Halloween candy",
@@ -3500,7 +3518,23 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-196",
+    "id": "deal-flipp-197",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Select Albanese gummy bears & more trick-or-treat candy",
+    "description": "Sale",
+    "price": 8.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-198",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select Blow Pops & more trick-or-treat candy",
@@ -3516,7 +3550,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-197",
+    "id": "deal-flipp-199",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Ocean's Halo Seaweed Snacks",
@@ -3534,7 +3568,7 @@
     ]
   },
   {
-    "id": "deal-flipp-198",
+    "id": "deal-flipp-200",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Snack Factory Pretzel Crisps",
@@ -3550,7 +3584,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-199",
+    "id": "deal-flipp-201",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select chocolate variety pack Halloween candy.†",
@@ -3566,7 +3600,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-200",
+    "id": "deal-flipp-202",
     "storeId": "target-atlantic",
     "storeName": "Target",
     "title": "Select Welch's fruit snacks & more trick-or-treat snacks",
@@ -3585,7 +3619,7 @@
     ]
   },
   {
-    "id": "deal-flipp-201",
+    "id": "deal-flipp-203",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Best Organic Sunny Days Snack Bars or Puffs",
@@ -3600,40 +3634,6 @@
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
       "organic"
-    ]
-  },
-  {
-    "id": "deal-flipp-202",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Mars variety pack bulk Halloween candy",
-    "description": "",
-    "price": 19.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-203",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sale Select Frito-Lay multipack snacks",
-    "description": "SALE",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": [
-      "snacks"
     ]
   },
   {
@@ -3656,6 +3656,24 @@
   },
   {
     "id": "deal-flipp-205",
+    "storeId": "target-atlantic",
+    "storeName": "Target",
+    "title": "Sale Select Frito-Lay multipack snacks",
+    "description": "SALE",
+    "price": 9.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "snacks",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": [
+      "snacks"
+    ]
+  },
+  {
+    "id": "deal-flipp-206",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Betty Crocker Fruit Snacks Value Pack",
@@ -3674,25 +3692,23 @@
     ]
   },
   {
-    "id": "deal-flipp-206",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Select Ritz, Wheat Thins, Chips Ahoy!, Oreo & Triscuit snacks",
-    "description": "Sale",
-    "price": 8,
+    "id": "deal-flipp-207",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "KIT KAT SNACK SIZE BARS",
+    "description": "",
+    "price": 6.49,
     "unit": "each",
     "originalPrice": null,
     "category": "snacks",
     "type": "weekly-flyer",
     "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": [
-      "snacks"
-    ]
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": []
   },
   {
-    "id": "deal-flipp-207",
+    "id": "deal-flipp-208",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Hershey's Snack Size Chocolate Bars",
@@ -3708,7 +3724,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-208",
+    "id": "deal-flipp-209",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "HERSHEY'S MILK CHOCOLATE SNACK SIZE BARS",
@@ -3724,22 +3740,6 @@
     "tags": [
       "milk"
     ]
-  },
-  {
-    "id": "deal-flipp-209",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "KIT KAT SNACK SIZE BARS",
-    "description": "",
-    "price": 6.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
   },
   {
     "id": "deal-flipp-210",
@@ -3795,8 +3795,8 @@
   },
   {
     "id": "deal-flipp-213",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "GOYA CORN OIL",
     "description": "",
     "price": 5.49,
@@ -3813,8 +3813,8 @@
   },
   {
     "id": "deal-flipp-214",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "GOYA CORN OIL",
     "description": "",
     "price": 5.49,
@@ -3887,8 +3887,8 @@
   },
   {
     "id": "deal-flipp-218",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "COLAVITA EXTRA VIRGIN OLIVE OIL",
     "description": "",
     "price": 9.99,
@@ -3905,8 +3905,8 @@
   },
   {
     "id": "deal-flipp-219",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "COLAVITA EXTRA VIRGIN OLIVE OIL",
     "description": "",
     "price": 9.99,
@@ -3960,8 +3960,8 @@
   },
   {
     "id": "deal-flipp-222",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "PROGRESSO BEANS",
     "description": "",
     "price": 4,
@@ -3978,8 +3978,8 @@
   },
   {
     "id": "deal-flipp-223",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "PROGRESSO BEANS",
     "description": "",
     "price": 4,
@@ -4122,6 +4122,24 @@
   },
   {
     "id": "deal-flipp-231",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Kraft Shredded or Cracker Barrel Chunk Cheese",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-232",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "FINLANDIA SANDWICH SLICED CHEESES",
@@ -4139,31 +4157,13 @@
     ]
   },
   {
-    "id": "deal-flipp-232",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Kerrygold Irish Cheddar Cheese",
-    "description": "",
-    "price": 4.88,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
     "id": "deal-flipp-233",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Galbani String Cheese",
-    "description": "DEAL LOCK",
-    "price": 3.99,
-    "unit": "each",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "GREAT LAKES AMERICAN CHEESE",
+    "description": "",
+    "price": 4.99,
+    "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
     "type": "weekly-flyer",
@@ -4178,9 +4178,9 @@
     "id": "deal-flipp-234",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Frigo String Cheese",
-    "description": "Earn 400 GO Points when you spend $12 on participating products in-store or online.",
-    "price": 3.99,
+    "title": "Kerrygold Irish Cheddar Cheese",
+    "description": "",
+    "price": 4.88,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4212,6 +4212,42 @@
   },
   {
     "id": "deal-flipp-236",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Galbani String Cheese",
+    "description": "DEAL LOCK",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-237",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Frigo String Cheese",
+    "description": "Earn 400 GO Points when you spend $12 on participating products in-store or online.",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-238",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "KRASDALE GRATED PARMESAN CHEESE",
@@ -4229,7 +4265,7 @@
     ]
   },
   {
-    "id": "deal-flipp-237",
+    "id": "deal-flipp-239",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
     "title": "Kraft American Cheese Singles",
@@ -4247,7 +4283,7 @@
     ]
   },
   {
-    "id": "deal-flipp-238",
+    "id": "deal-flipp-240",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Land O Lakes Cheese Cubes",
@@ -4265,7 +4301,7 @@
     ]
   },
   {
-    "id": "deal-flipp-239",
+    "id": "deal-flipp-241",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "ATHENOS CRUMBLED FETA CHEESE",
@@ -4283,7 +4319,7 @@
     ]
   },
   {
-    "id": "deal-flipp-240",
+    "id": "deal-flipp-242",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Shredded Cheese",
@@ -4301,7 +4337,7 @@
     ]
   },
   {
-    "id": "deal-flipp-241",
+    "id": "deal-flipp-243",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "KRASDALE ASSORTED CHEESES",
@@ -4319,7 +4355,7 @@
     ]
   },
   {
-    "id": "deal-flipp-242",
+    "id": "deal-flipp-244",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "FRIENDSHIP FARMER CHEESE",
@@ -4337,7 +4373,7 @@
     ]
   },
   {
-    "id": "deal-flipp-243",
+    "id": "deal-flipp-245",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "BORDEN SHREDDED CHEESE",
@@ -4355,49 +4391,13 @@
     ]
   },
   {
-    "id": "deal-flipp-244",
+    "id": "deal-flipp-246",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "GALBANI STRING CHEESE",
     "description": "",
     "price": 4.99,
     "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-245",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "POLLY-O SHREDDED PIZZA CHEESE",
-    "description": "",
-    "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-246",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "ALPINE LACE SWISS CHEESE",
-    "description": "",
-    "price": 7.99,
-    "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
     "type": "weekly-flyer",
@@ -4430,9 +4430,9 @@
     "id": "deal-flipp-248",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "BOAR'S HEAD AMERICAN CHEESE",
+    "title": "ALPINE LACE SWISS CHEESE",
     "description": "",
-    "price": 5.99,
+    "price": 7.99,
     "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
@@ -4446,6 +4446,24 @@
   },
   {
     "id": "deal-flipp-249",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "POLLY-O SHREDDED PIZZA CHEESE",
+    "description": "",
+    "price": 7,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-250",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Land O Lakes American Cheese",
@@ -4463,7 +4481,25 @@
     ]
   },
   {
-    "id": "deal-flipp-250",
+    "id": "deal-flipp-251",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BOAR'S HEAD AMERICAN CHEESE",
+    "description": "",
+    "price": 5.99,
+    "unit": "per lb",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "cheese"
+    ]
+  },
+  {
+    "id": "deal-flipp-252",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "LAND O LAKES ASSORTED CHEESE",
@@ -4481,49 +4517,13 @@
     ]
   },
   {
-    "id": "deal-flipp-251",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "BELGIOIOSO SHREDDED QUESADILLA CHEESE",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-252",
+    "id": "deal-flipp-253",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "KRASDALE SLICED MUENSTER CHEESE",
     "description": "",
     "price": 5,
     "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-flipp-253",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
-    "title": "GREAT LAKES AMERICAN CHEESE",
-    "description": "",
-    "price": 4.99,
-    "unit": "per lb",
     "originalPrice": null,
     "category": "dairy",
     "type": "weekly-flyer",
@@ -4556,9 +4556,9 @@
     "id": "deal-flipp-255",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
-    "title": "ORGANIC VALLEY STRING CHEESE STRINGS",
+    "title": "BELGIOIOSO SHREDDED QUESADILLA CHEESE",
     "description": "",
-    "price": 5.99,
+    "price": 4.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4567,8 +4567,7 @@
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
-      "cheese",
-      "organic"
+      "cheese"
     ]
   },
   {
@@ -4591,11 +4590,11 @@
   },
   {
     "id": "deal-flipp-257",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Kraft Shredded or Cracker Barrel Chunk Cheese",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
+    "title": "ORGANIC VALLEY STRING CHEESE STRINGS",
     "description": "",
-    "price": 5,
+    "price": 5.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4604,7 +4603,8 @@
     "validFrom": "2026-10-23T04:00:00+00:00",
     "validTo": "2026-10-30T03:59:59+00:00",
     "tags": [
-      "cheese"
+      "cheese",
+      "organic"
     ]
   },
   {
@@ -4779,11 +4779,11 @@
   },
   {
     "id": "deal-flipp-268",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Fage Yogurt",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "SIGGI'S YOGURT",
     "description": "",
-    "price": 5.99,
+    "price": 5,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4795,11 +4795,11 @@
   },
   {
     "id": "deal-flipp-269",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "SIGGI'S YOGURT",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Fage Yogurt",
     "description": "",
-    "price": 5,
+    "price": 5.99,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -4827,6 +4827,22 @@
   },
   {
     "id": "deal-flipp-271",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Chobani Greek Yogurt",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-272",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "STONYFIELD ORGANIC YOGURT",
@@ -4842,22 +4858,6 @@
     "tags": [
       "organic"
     ]
-  },
-  {
-    "id": "deal-flipp-272",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "CHOBANI GREEK YOGURT",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
   },
   {
     "id": "deal-flipp-273",
@@ -4877,9 +4877,9 @@
   },
   {
     "id": "deal-flipp-274",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Chobani Greek Yogurt",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "CHOBANI GREEK YOGURT",
     "description": "",
     "price": 5,
     "unit": "each",
@@ -5047,24 +5047,6 @@
   },
   {
     "id": "deal-flipp-284",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Land O Lakes Butter Spread",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "butter"
-    ]
-  },
-  {
-    "id": "deal-flipp-285",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "• HOTEL BAR • KELLER'S BUTTER",
@@ -5082,7 +5064,43 @@
     ]
   },
   {
+    "id": "deal-flipp-285",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Land O Lakes Butter Spread",
+    "description": "",
+    "price": 3.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "butter"
+    ]
+  },
+  {
     "id": "deal-flipp-286",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
+    "title": "BREAKSTONE'S WHIPPED BUTTER",
+    "description": "",
+    "price": 6,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "dairy",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": [
+      "butter"
+    ]
+  },
+  {
+    "id": "deal-flipp-287",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "ORGANIC VALLEY BUTTER",
@@ -5101,30 +5119,12 @@
     ]
   },
   {
-    "id": "deal-flipp-287",
+    "id": "deal-flipp-288",
     "storeId": "ctownsupermarket-dekalb",
     "storeName": "C-Town Supermarkets",
     "title": "PLUGRA EUROPEAN BUTTER",
     "description": "",
     "price": 7,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": [
-      "butter"
-    ]
-  },
-  {
-    "id": "deal-flipp-288",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
-    "title": "BREAKSTONE'S WHIPPED BUTTER",
-    "description": "",
-    "price": 6,
     "unit": "each",
     "originalPrice": null,
     "category": "dairy",
@@ -5418,9 +5418,9 @@
     "id": "deal-flipp-306",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "DUNKIN' COFFEE",
+    "title": "PEET'S COFFEE",
     "description": "",
-    "price": 11.49,
+    "price": 17.99,
     "unit": "each",
     "originalPrice": null,
     "category": "beverages",
@@ -5434,9 +5434,9 @@
     "id": "deal-flipp-307",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
-    "title": "PEET'S COFFEE",
+    "title": "DUNKIN' COFFEE",
     "description": "",
-    "price": 17.99,
+    "price": 11.49,
     "unit": "each",
     "originalPrice": null,
     "category": "beverages",
@@ -5628,22 +5628,6 @@
     "id": "deal-flipp-319",
     "storeId": "family-dollar-myrtle",
     "storeName": "Family Dollar",
-    "title": "Campbell's Chunky Soups",
-    "description": "",
-    "price": 4,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-25T04:00:00+00:00",
-    "validTo": "2026-11-01T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-320",
-    "storeId": "family-dollar-myrtle",
-    "storeName": "Family Dollar",
     "title": "Progresso Soups",
     "description": "",
     "price": 6,
@@ -5657,39 +5641,23 @@
     "tags": []
   },
   {
+    "id": "deal-flipp-320",
+    "storeId": "family-dollar-myrtle",
+    "storeName": "Family Dollar",
+    "title": "Campbell's Chunky Soups",
+    "description": "",
+    "price": 4,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-25T04:00:00+00:00",
+    "validTo": "2026-11-01T03:59:59+00:00",
+    "tags": []
+  },
+  {
     "id": "deal-flipp-321",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Progresso Soup",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-322",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
-    "title": "Panera Soup",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-323",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "PANERA SOUP",
@@ -5705,9 +5673,41 @@
     "tags": []
   },
   {
+    "id": "deal-flipp-322",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Progresso Soup",
+    "description": "",
+    "price": 5,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": []
+  },
+  {
+    "id": "deal-flipp-323",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Panera Soup",
+    "description": "",
+    "price": 4.99,
+    "unit": "each",
+    "originalPrice": null,
+    "category": "canned",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
+    "tags": []
+  },
+  {
     "id": "deal-flipp-324",
-    "storeId": "ctownsupermarket-dekalb",
-    "storeName": "C-Town Supermarkets",
+    "storeId": "bravo-livingston",
+    "storeName": "Bravo Supermarket",
     "title": "CAMPBELL'S CHICKEN NOODLE SOUP",
     "description": "",
     "price": 3,
@@ -5724,8 +5724,8 @@
   },
   {
     "id": "deal-flipp-325",
-    "storeId": "bravo-livingston",
-    "storeName": "Bravo Supermarket",
+    "storeId": "ctownsupermarket-dekalb",
+    "storeName": "C-Town Supermarkets",
     "title": "CAMPBELL'S CHICKEN NOODLE SOUP",
     "description": "",
     "price": 3,
@@ -5891,22 +5891,6 @@
     "id": "deal-flipp-335",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
-    "title": "Stop & Shop Shrimp Ring",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "weekly-flyer",
-    "source": "flipp",
-    "validFrom": "2026-10-23T04:00:00+00:00",
-    "validTo": "2026-10-30T03:59:59+00:00",
-    "tags": []
-  },
-  {
-    "id": "deal-flipp-336",
-    "storeId": "stop-and-shop-atlantic",
-    "storeName": "Stop & Shop",
     "title": "Gorton's Shrimp, Fish Sticks or Fillets",
     "description": "",
     "price": 6.99,
@@ -5920,7 +5904,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-337",
+    "id": "deal-flipp-336",
     "storeId": "aldi-downtown",
     "storeName": "ALDI",
     "title": "Black Tiger Shrimp",
@@ -5936,7 +5920,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-338",
+    "id": "deal-flipp-337",
     "storeId": "bravo-livingston",
     "storeName": "Bravo Supermarket",
     "title": "SCOTT & JON'S SHRIMP ENTREES",
@@ -5952,7 +5936,7 @@
     "tags": []
   },
   {
-    "id": "deal-flipp-339",
+    "id": "deal-flipp-338",
     "storeId": "stop-and-shop-atlantic",
     "storeName": "Stop & Shop",
     "title": "Stop & Shop Large Cooked Shrimp",
@@ -5968,2095 +5952,19 @@
     "tags": []
   },
   {
-    "id": "deal-target-circle-340",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Drizzilicious S&#39;mores Drizzled Mini Rice Cake - 4oz",
-    "description": "",
-    "price": 3.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-341",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Peanut Butter Sandwich Crackers - 8ct/10oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "butter"
-    ]
-  },
-  {
-    "id": "deal-target-circle-342",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Pirate&#39;s Booty Aged White Cheddar Cheese Puffs Snack Multipack - 5oz/10pk",
+    "id": "deal-flipp-339",
+    "storeId": "stop-and-shop-atlantic",
+    "storeName": "Stop & Shop",
+    "title": "Stop & Shop Shrimp Ring",
     "description": "",
     "price": 6.99,
     "unit": "each",
     "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-343",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Grab &#38; Go Favorites Multipack Snacks - 12.5oz/18ct: Original, Honey Mustard, White Cheddar",
-    "description": "",
-    "price": 10.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-target-circle-344",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Drizzilicious Strawberry Chocolatey Drizzled Mini Rice Cake - 4oz",
-    "description": "",
-    "price": 3.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-345",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Drizzilicious Lemon Drizzled Mini Rice Cake - 4oz: Vegan, Gluten-Free",
-    "description": "",
-    "price": 3.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-346",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fall Harvest Stuffing Seasoned Pretzels - 16oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 5,
-    "unit": "each",
-    "originalPrice": null,
     "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
+    "type": "weekly-flyer",
+    "source": "flipp",
+    "validFrom": "2026-10-23T04:00:00+00:00",
+    "validTo": "2026-10-30T03:59:59+00:00",
     "tags": []
-  },
-  {
-    "id": "deal-target-circle-347",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fall Harvest Mini Maple Salted Rice Cakes - 4oz - Favorite Day&#8482;",
-    "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-348",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "LesserEvil Spaceballs Real Cheese Snack Pack Puffs - 6oz/10ct",
-    "description": "",
-    "price": 8.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-349",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Frito-Lay Variety Pack Fun Mix - 18ct: Cheddar, Barbecue, Honey, Onion, Sour Cream",
-    "description": "Was $10.99",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": 10.99,
-    "category": "produce",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "onion"
-    ]
-  },
-  {
-    "id": "deal-target-circle-350",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fall Harvest Pumpkin Spice Tortilla Chip - 11oz - Favorite Day&#8482;",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-351",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Drizzilicious Halloween Chips Variety Pack - 17.76oz/24ct",
-    "description": "",
-    "price": 19.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-352",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Quest Nutrition Protein Chips - Sour Cream &#38; Onion - 4pk",
-    "description": "",
-    "price": 9.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "onion"
-    ]
-  },
-  {
-    "id": "deal-target-circle-353",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sensible Portions Halloween Snack Garden Veggie Ghosts &#38; Bats Sea Salt Flavored Chips - 6oz/12ct",
-    "description": "",
-    "price": 9.39,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-354",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Mini Peanut Butter Filled Pretzels Multipack - 9ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "butter"
-    ]
-  },
-  {
-    "id": "deal-target-circle-355",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Pringles Snack Cups Variety Pack Potato Crisps Chips - 12.9oz/18ct: Original, Cheddar, Onion, Sour C",
-    "description": "",
-    "price": 9.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "onion",
-      "potato"
-    ]
-  },
-  {
-    "id": "deal-target-circle-356",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Quest Nutrition Tortilla Style Protein Chips - Nacho - 4pk/1.1oz",
-    "description": "",
-    "price": 9.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "bakery",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-357",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "RITZ Stacks Original Crackers Travel Snacks - 11.8oz",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-target-circle-358",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Drizzilicious Cookies &#38; Cream Drizzled Mini Rice Cake - 4oz",
-    "description": "",
-    "price": 3.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-359",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "GimMe Organic Seaweed Sea Salt Snacks - 0.7oz/4pk",
-    "description": "",
-    "price": 4.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "organic",
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-target-circle-360",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Kellogg&#39;s Rice Krispies Treats Original Bars - 12.4oz/16ct",
-    "description": "",
-    "price": 5.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-361",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "RITZ Bits Cheese Sandwich Crackers Lunch Snacks - 8.8oz: No High Fructose Corn Syrup",
-    "description": "",
-    "price": 4.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese",
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-target-circle-362",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Utz Halloween Snacks Pretzel Treats - 18oz/36ct",
-    "description": "Was $6.99",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": 6.99,
-    "category": "snacks",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "snacks"
-    ]
-  },
-  {
-    "id": "deal-target-circle-363",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Goldfish Cheddar Crackers Snack Packs - 1oz/12ct: No Artificial Preservatives, No Artificial Flavors",
-    "description": "",
-    "price": 7.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "snacks",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-364",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Simply Peach Juice Drink - 52 fl oz",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-365",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Watermelon Lime Sparkling Water - 8pk/12 fl oz Cans - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-366",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Strawberry Mango Sparkling Water - 8pk/12 fl oz Cans - Good &#38; Gather",
-    "description": "",
-    "price": 3.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-367",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Original Apple Cider - 0.5gal - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 4.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple"
-    ]
-  },
-  {
-    "id": "deal-target-circle-368",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Simply Lemonade with Strawberry Juice - 52 fl oz",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-369",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Organic Apple Juice From Concentrate - 32 fl oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 4.39,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple",
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-target-circle-370",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Summer Sangria Sparkling Water - 8pk/12 fl oz Cans Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-371",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sanpellegrino CIAO! Blood Orange Flavored Sparkling Water with Real Fruit Juices - 6pk/11.15 fl oz C",
-    "description": "Was $6.19",
-    "price": 5.49,
-    "unit": "each",
-    "originalPrice": 6.19,
-    "category": "produce",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "fruit",
-      "sugar"
-    ]
-  },
-  {
-    "id": "deal-target-circle-372",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Pulp Free 100% Orange Juice Not From Concentrate w/ Calcium &#38; Vitamin D - 52 fl oz - Good &#38; ",
-    "description": "",
-    "price": 4.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-373",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Lumen Sparkling Protein Grape - 12 fl oz",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-374",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "BUBBL&#39;R Cranberry Lemon Lime Antioxidant Sparkling Water - 12 fl oz/6pk",
-    "description": "Buy 2 for $12 BUBBL'R antioxidant sparkling water ",
-    "price": 6.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "coupon",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-375",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "100% Apple Juice Multipack Fruit Juice - 6pk/8 fl oz Market Pantry&#8482;",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple",
-      "fruit"
-    ]
-  },
-  {
-    "id": "deal-target-circle-376",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Cold Pressed Passion Orange Guava Juice Beverage  - 12 fl oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-377",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Liquid Death Strawberry Terror Sparkling Water - 6pk/12 fl oz Cans",
-    "description": "Was $7.19",
-    "price": 5.75,
-    "unit": "each",
-    "originalPrice": 7.19,
-    "category": "produce",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-378",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Liquid Death Pina Killada Sparkling Water - 6pk/12 fl oz Cans",
-    "description": "Was $7.19",
-    "price": 5.75,
-    "unit": "each",
-    "originalPrice": 7.19,
-    "category": "canned",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-379",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sparkling Ice Black Raspberry - 17 fl oz Bottle: Caffeine Free, No Added Sugar, No Artificial Colors",
-    "description": "",
-    "price": 1.39,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "sugar"
-    ]
-  },
-  {
-    "id": "deal-target-circle-380",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "LaCroix Sparkling Water LimonCello - 8pk/12 fl oz Cans",
-    "description": "",
-    "price": 4.39,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-381",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Trip Mindful Blend Strawberry Lightly Sparkling Botanical - 12 fl oz: Caffeine Free",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-382",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Capri Sun Pacific Cooler Mixed Fruit Juice Boxes - 10pk/6 fl oz Pouches: No Artificial Colors, No Ar",
-    "description": "",
-    "price": 3.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "fruit"
-    ]
-  },
-  {
-    "id": "deal-target-circle-383",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Simply Lemonade - 52 fl oz: Low Sodium, No Artificial Flavors",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-384",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Spindrift Fuji Apple Sparkling Water - 8pk/12 fl oz Cans",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple"
-    ]
-  },
-  {
-    "id": "deal-target-circle-385",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "S.Pellegrino&#160;Mineral&#160;Sparkling Water - 8pk/11.15 fl oz Cans: Sugar-Free, Caffeine-Free",
-    "description": "Was $7.99",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": 7.99,
-    "category": "canned",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "sugar"
-    ]
-  },
-  {
-    "id": "deal-target-circle-386",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Strawberry Lemonade Sparkling Water - 33.8 fl oz Bottle - Market Pantry: Zero Calories",
-    "description": "",
-    "price": 0.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-387",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "100% Apple Juice - 64 fl oz Bottle - Market Pantry&#8482;",
-    "description": "",
-    "price": 2.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple"
-    ]
-  },
-  {
-    "id": "deal-target-circle-388",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Colby Jack Cheese Cubes - 8oz - Good & Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-389",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "1% Milkfat Low fat Small Curd Cottage Cheese - 24oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "milk",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-390",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "4% Milkfat Small Curd Cottage Cheese - 24oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "milk",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-391",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Good Culture 2% Milkfat Simply Cottage Cheese - 5.3oz: Keto Certified, High Protein, No Preservative",
-    "description": "",
-    "price": 1.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "milk",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-392",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Shredded Mexican-Style Cheese - 8oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-393",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Colby Jack Deli Sliced Cheese - 8oz/12 slices - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-394",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Feta Cheese Crumbles - 6oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-395",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Grated Parmesan Cheese Cup - 5oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-396",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Low-Moisture Part-Skim Mozzarella String Cheese - 12oz/12ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-397",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Finely Shredded Mozzarella & Parmesan Cheese - 8oz - Good & Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-398",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Belgioioso Parmesan Cheese Wedge - 8oz: Cow Milk",
-    "description": "",
-    "price": 6.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "milk",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-399",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Cheddar &#38; Colby Jack Cheese &#38; Cracker Quick Bites - 4.5oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-400",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Extra Sharp White Cheddar Cheese - 8oz - Good & Gather&#8482;",
-    "description": "",
-    "price": 1.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-401",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Shredded Mozzarella Cheese - 8oz - Good &#38; Gather",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-402",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Provolone Deli Sliced Cheese - 8oz/12 slices - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-403",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Colby Jack Cheese Sticks - 9oz/12ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-404",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Colby Jack Cheese Snack Bars - 9oz/12ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-405",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sharp Cheddar Deli Sliced Cheese - 8oz/12 slices - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-406",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Colby Jack Cheese - 8oz - Good &#38; Gather",
-    "description": "",
-    "price": 1.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-407",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Mild Cheddar Cheese Snack Bars - 9oz/12ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-408",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Muenster Deli Sliced Cheese - 8oz/12 slices - Good &#38; Gather",
-    "description": "",
-    "price": 1.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-409",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sargento Mozzarella String Cheese - 12oz/12ct: Cow Milk",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "milk",
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-410",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Finely Shredded Mozzarella Cheese - 8oz - Good & Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "dairy",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "cheese"
-    ]
-  },
-  {
-    "id": "deal-target-circle-411",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh All Natural 93/7 Ground Beef - 1lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 7.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-412",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh USDA Choice Angus Beef Steak Strips - 14oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 12.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-413",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh USDA Choice Angus Beef Stew Meat - 1lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 9.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "meat"
-    ]
-  },
-  {
-    "id": "deal-target-circle-414",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Teriyaki Beef Sirloin Strips - 16oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 12.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-415",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Sopressata and Prosciutto Panino Deli Meat - 5oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 6.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "meat"
-    ]
-  },
-  {
-    "id": "deal-target-circle-416",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh All Natural 85/15 Ground Beef - 1lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 7.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-417",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Organic 100% Grassfed 85/15 Ground Beef - 1lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 7.69,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-target-circle-418",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "ButcherBox Grass Fed Beef Top Sirloin Steak - 12oz: B Corp Certified, Ketogenic, Paleo",
-    "description": "",
-    "price": 13.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-419",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Grilled Fajita Chicken Breast Strips - 12oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-target-circle-420",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Turkey Sausage 8g Protein Snack Sticks - 8oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 4.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-421",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh All Natural Boneless &#38; Skinless Chicken Breast - price per lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken",
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-422",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Shredded Rotisserie Seasoned Chicken - 12oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 6.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-target-circle-423",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Bourbon Black Pepper Beef Sirloin Steak Tips - 13oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 13.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-424",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Thin Sliced Beef Ribeye Steak - price per lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 20.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-425",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Teton Water Ranch 100% Grass Fed Beef Italian-Style Beef Meatballs - 9oz",
-    "description": "Was $8.99",
-    "price": 7.99,
-    "unit": "each",
-    "originalPrice": 8.99,
-    "category": "meat",
-    "type": "daily-deal",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "meat"
-    ]
-  },
-  {
-    "id": "deal-target-circle-426",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "No Antibiotics Ever Fresh Parmesan Chicken Breast Cutlets - 20oz/4ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 10.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-target-circle-427",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Thin Sliced Beef New York Strip Steak - price per lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 18.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "rice"
-    ]
-  },
-  {
-    "id": "deal-target-circle-428",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "ButcherBox Grass Fed Beef Ribeye Steak - 10oz",
-    "description": "",
-    "price": 13.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-429",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Italian Style Beef, Pork, &#38; Chicken Meatballs - Frozen - 26oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 7.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken",
-      "beef",
-      "pork",
-      "frozen",
-      "meat"
-    ]
-  },
-  {
-    "id": "deal-target-circle-430",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Demakes Bros. Shaved Beef Steak - 14oz: 90/10 Lean, Gluten-Free, Paleo",
-    "description": "",
-    "price": 7.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef"
-    ]
-  },
-  {
-    "id": "deal-target-circle-431",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Beef Meatballs - Frozen - 26oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 7.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beef",
-      "frozen",
-      "meat"
-    ]
-  },
-  {
-    "id": "deal-target-circle-432",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Andouille Chicken Sausage - 12oz - Good &#38; Gather",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "meat",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "chicken"
-    ]
-  },
-  {
-    "id": "deal-target-circle-433",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Uncured Honey Ham Ultra-Thin Deli Slices - 9oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-434",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Uncured Hard Salami Ultra-Thin Deli Slices - 7oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 3.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-435",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh English Cucumber - Each",
-    "description": "",
-    "price": 0.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-436",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Rainbow Bell Peppers 3ct - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-437",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Carrot Sticks - 12oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-438",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Organic Carrots - 1lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-target-circle-439",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Honeycrisp Apples - 3lb Bag - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 5.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "apple"
-    ]
-  },
-  {
-    "id": "deal-target-circle-440",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Pumpkin Paint Activity Kit - 4ct",
-    "description": "",
-    "price": 6.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-441",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Green Beans - 12oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "canned",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "beans"
-    ]
-  },
-  {
-    "id": "deal-target-circle-442",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Mixed Ornamental Gourds",
-    "description": "",
-    "price": 4.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-443",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Broccoli Florets - 12oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-444",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Pomegranate - each",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-445",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Green Kiwi Fruit - 1lb",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "fruit"
-    ]
-  },
-  {
-    "id": "deal-target-circle-446",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Jumbo Blueberries - 9.8oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 5.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-447",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Banana - each - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 0.29,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "banana"
-    ]
-  },
-  {
-    "id": "deal-target-circle-448",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Steam-in-Bag Spinach - 9oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "beverages",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-449",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Sliced White Mushrooms - 8oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-450",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Mini Sweet Peppers - 16oz - Good &#38; Gather&#8482; (Packaging May Vary)",
-    "description": "",
-    "price": 3.49,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-451",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Premium Cherry Tomatoes - 10oz - Good &#38; Gather&#8482; (Packaging May Vary)",
-    "description": "",
-    "price": 2.59,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "tomato"
-    ]
-  },
-  {
-    "id": "deal-target-circle-452",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Sugar Snap Peas - 8oz - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 2.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "pantry",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "sugar"
-    ]
-  },
-  {
-    "id": "deal-target-circle-453",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "SUNSET Organic Mini Cucumbers - 1lb",
-    "description": "",
-    "price": 2.99,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-target-circle-454",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Lemon - each",
-    "description": "",
-    "price": 0.89,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-455",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Large Hass Avocado - each",
-    "description": "",
-    "price": 1.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": []
-  },
-  {
-    "id": "deal-target-circle-456",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Organic Zucchini - 2ct",
-    "description": "",
-    "price": 3.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "other",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "organic"
-    ]
-  },
-  {
-    "id": "deal-target-circle-457",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Sweet Potato - each",
-    "description": "",
-    "price": 1.19,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "potato"
-    ]
-  },
-  {
-    "id": "deal-target-circle-458",
-    "storeId": "target-atlantic",
-    "storeName": "Target",
-    "title": "Fresh Organic Bananas - 2lb - Good &#38; Gather&#8482;",
-    "description": "",
-    "price": 1.79,
-    "unit": "each",
-    "originalPrice": null,
-    "category": "produce",
-    "type": "everyday-low",
-    "source": "target-circle",
-    "validFrom": "2026-10-26",
-    "validTo": "2026-10-27",
-    "tags": [
-      "banana",
-      "organic"
-    ]
   }
 ]
